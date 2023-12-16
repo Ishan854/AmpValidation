@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babyNamesHinduReligion.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesHinduReligion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babyNamesMuslimReligion.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesMuslimReligion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycode.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CompareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompareData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregateHindu/B.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregateHindu/B.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregateHindu/C.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregateHindu/C.json" afterDir="false" />
-    </list>
+    <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
