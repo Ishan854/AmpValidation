@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="" />
+    <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/g.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/g.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/h.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/i.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/j.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/j.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/k.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/l.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/l.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/m.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/n.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/o.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/p.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/q.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/r.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/s.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/t.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/u.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/v.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/w.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/x.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/y.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/y.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/z.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/å.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/å.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
