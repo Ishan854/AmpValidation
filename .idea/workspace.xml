@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BabyNames/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babyNamesHinduReligion.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesHinduReligion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babyNamesMuslimReligion.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesMuslimReligion.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CompareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompareData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregateHindu/B.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregateHindu/B.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregateHindu/C.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregateHindu/C.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -43,7 +48,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/BabyNames/src/test/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -51,6 +56,8 @@
       <recent name="F:\BabyNames\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\BabyNames\src\test\resources\SegregatedUniqueNames" />
+      <recent name="F:\BabyNames\src\test\java" />
       <recent name="F:\BabyNames\src\test\resources\SegregateHindu" />
       <recent name="F:\BabyNames\src\test\resources\SegregateMuslim" />
     </key>
@@ -67,10 +74,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BabyNameMuslim" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BabyNameMuslim" />
+      <option name="MAIN_CLASS_NAME" value="CompareData" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,22 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BabyNames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareData.compareData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BabyNames" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SegregateFIles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SegregateFIles" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="CompareData" />
+      <option name="METHOD_NAME" value="compareData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,13 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UniqueNames" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.SegregateFiles" />
+        <item itemvalue="TestNG.UniqueNames" />
+        <item itemvalue="TestNG.CompareData.compareData" />
+        <item itemvalue="TestNG.CompareData" />
         <item itemvalue="TestNG.AddReligion" />
-        <item itemvalue="TestNG.SegregateFIles" />
-        <item itemvalue="TestNG.BabyNameMuslim" />
-        <item itemvalue="TestNG.BabyNames" />
       </list>
     </recent_temporary>
   </component>
@@ -137,8 +145,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CompareData.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
+          <line>12</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
