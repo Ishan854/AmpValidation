@@ -12,7 +12,7 @@ public class AddReligion {
 
     @Test(priority = 1)
     public void createFileForHindu() {
-        modifyAndSaveToFile("babyNamesMuslim.json", "Muslim", "babyNamesMuslimReligion.json");
+        modifyAndSaveToFile("babyNamesChristian.json", "Christian", "babyNamesChristianReligion.json");
     }
 
 //    @Test(priority = 2)

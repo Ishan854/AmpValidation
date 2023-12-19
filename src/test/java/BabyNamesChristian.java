@@ -1,4 +1,3 @@
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -18,24 +17,25 @@ import java.time.Duration;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
-public class BabyNamesChristian {
 
+public class BabyNamesChristian {
     WebDriver driver;
+
     @BeforeMethod
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Test
     public void babyNameList() throws TimeoutException {
         try {
             System.out.println("Navigating to site link");
-            driver.get("https://www.momjunction.com/baby-names/christianity/page/121/");
+            driver.get("https://www.momjunction.com/baby-names/christianity/page/208/");
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(180));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(420));
             wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table['from_functions']/tbody/tr")));
 
             List<Map<String, String>> nameDetailsList = new ArrayList<>();
@@ -43,7 +43,6 @@ public class BabyNamesChristian {
             do {
                 extractNamesFromPage(nameDetailsList);
             } while (hasNextPage());
-
 
             convertAndWriteToJson(nameDetailsList, "babyNamesChristianTwo.json");
         } catch (Exception e) {
@@ -83,7 +82,7 @@ public class BabyNamesChristian {
             List<WebElement> nextButtonElements = driver.findElements(By.className("next"));
             if (!nextButtonElements.isEmpty()) {
                 WebElement nextButton = nextButtonElements.get(0);
-                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
                 wait.until(ExpectedConditions.elementToBeClickable(nextButton));
                 nextButton.click();
                 wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#from_functions tbody tr")));
@@ -123,5 +122,4 @@ public class BabyNamesChristian {
             }
         }
     }
-
 }

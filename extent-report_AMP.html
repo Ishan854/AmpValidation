@@ -1,0 +1,4537 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href='https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>ExtentReports</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>ExtentReports</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Dec 19, 2023 05:13:09 pm</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>100</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 1</span>
+						<span class='test-time'>Dec 19, 2023 05:13:16 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:16 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:16 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+15ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:16 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:16 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 2</span>
+						<span class='test-time'>Dec 19, 2023 05:13:17 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:17 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:17 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:17 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:17 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 3</span>
+						<span class='test-time'>Dec 19, 2023 05:13:17 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:17 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:17 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:17 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:17 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 4</span>
+						<span class='test-time'>Dec 19, 2023 05:13:18 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:18 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:18 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:18 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:18 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 5</span>
+						<span class='test-time'>Dec 19, 2023 05:13:19 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:19 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:19 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:19 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:19 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 6</span>
+						<span class='test-time'>Dec 19, 2023 05:13:20 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:20 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:20 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:20 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:20 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 7</span>
+						<span class='test-time'>Dec 19, 2023 05:13:20 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:20 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:20 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:20 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:20 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 8</span>
+						<span class='test-time'>Dec 19, 2023 05:13:23 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:23 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:23 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:23 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:23 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 9</span>
+						<span class='test-time'>Dec 19, 2023 05:13:24 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:24 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:24 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:24 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:24 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 10</span>
+						<span class='test-time'>Dec 19, 2023 05:13:25 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:25 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:25 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:25 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:25 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 11</span>
+						<span class='test-time'>Dec 19, 2023 05:13:28 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:28 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:28 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:28 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:28 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 12</span>
+						<span class='test-time'>Dec 19, 2023 05:13:30 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:30 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:30 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:30 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:30 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 13</span>
+						<span class='test-time'>Dec 19, 2023 05:13:31 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:31 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:31 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:31 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:31 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='14'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 14</span>
+						<span class='test-time'>Dec 19, 2023 05:13:32 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:32 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:32 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:32 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:32 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 15</span>
+						<span class='test-time'>Dec 19, 2023 05:13:33 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:33 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:33 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:33 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:33 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 16</span>
+						<span class='test-time'>Dec 19, 2023 05:13:33 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:33 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:33 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:33 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:33 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 17</span>
+						<span class='test-time'>Dec 19, 2023 05:13:35 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:35 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:35 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:35 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:35 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 18</span>
+						<span class='test-time'>Dec 19, 2023 05:13:36 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:36 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:36 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:36 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:36 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='19'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 19</span>
+						<span class='test-time'>Dec 19, 2023 05:13:37 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:37 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:37 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:37 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:37 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='20'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 20</span>
+						<span class='test-time'>Dec 19, 2023 05:13:38 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:38 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:38 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:38 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:38 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 21</span>
+						<span class='test-time'>Dec 19, 2023 05:13:40 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:40 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:40 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:40 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:40 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 22</span>
+						<span class='test-time'>Dec 19, 2023 05:13:43 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:43 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:43 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:43 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:43 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 23</span>
+						<span class='test-time'>Dec 19, 2023 05:13:46 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:46 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:46 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:46 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:46 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='24'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 24</span>
+						<span class='test-time'>Dec 19, 2023 05:13:47 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:47 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:47 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:47 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:47 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='25'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 25</span>
+						<span class='test-time'>Dec 19, 2023 05:13:48 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:48 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:48 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:48 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:48 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='26'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 26</span>
+						<span class='test-time'>Dec 19, 2023 05:13:49 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:49 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:49 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:49 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:49 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 27</span>
+						<span class='test-time'>Dec 19, 2023 05:13:52 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:52 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:52 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:52 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:52 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='28'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 28</span>
+						<span class='test-time'>Dec 19, 2023 05:13:55 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:55 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:55 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:55 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:55 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='29'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 29</span>
+						<span class='test-time'>Dec 19, 2023 05:13:56 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:56 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:56 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:56 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:56 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='30'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 30</span>
+						<span class='test-time'>Dec 19, 2023 05:13:58 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:58 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:58 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:58 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:58 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='31'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 31</span>
+						<span class='test-time'>Dec 19, 2023 05:13:59 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:13:59 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:13:59 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:59 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:13:59 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='32'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 32</span>
+						<span class='test-time'>Dec 19, 2023 05:14:00 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:00 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:00 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:00 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:00 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='33'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 33</span>
+						<span class='test-time'>Dec 19, 2023 05:14:01 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:01 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:01 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:01 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:01 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='34'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 34</span>
+						<span class='test-time'>Dec 19, 2023 05:14:08 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:08 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:08 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:08 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:08 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='35'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 35</span>
+						<span class='test-time'>Dec 19, 2023 05:14:10 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:10 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:10 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:10 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:10 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 36</span>
+						<span class='test-time'>Dec 19, 2023 05:14:11 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:11 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:11 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:11 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:11 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='37'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 37</span>
+						<span class='test-time'>Dec 19, 2023 05:14:12 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:12 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:12 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:12 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:12 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='38'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 38</span>
+						<span class='test-time'>Dec 19, 2023 05:14:15 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:15 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:15 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:15 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:15 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 39</span>
+						<span class='test-time'>Dec 19, 2023 05:14:16 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:16 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:16 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:16 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:16 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='40'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 40</span>
+						<span class='test-time'>Dec 19, 2023 05:14:17 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:17 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:17 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:17 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:17 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='41'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 41</span>
+						<span class='test-time'>Dec 19, 2023 05:14:18 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:18 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:18 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:18 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:18 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='42'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 42</span>
+						<span class='test-time'>Dec 19, 2023 05:14:20 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:20 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:20 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:20 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:20 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 43</span>
+						<span class='test-time'>Dec 19, 2023 05:14:21 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:21 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:21 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:21 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:21 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 44</span>
+						<span class='test-time'>Dec 19, 2023 05:14:22 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:22 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:22 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:22 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:22 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='45'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 45</span>
+						<span class='test-time'>Dec 19, 2023 05:14:23 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:23 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:23 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:23 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:23 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='46'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 46</span>
+						<span class='test-time'>Dec 19, 2023 05:14:24 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:24 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:24 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:24 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:24 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 47</span>
+						<span class='test-time'>Dec 19, 2023 05:14:26 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:26 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:26 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:26 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:26 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='48'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 48</span>
+						<span class='test-time'>Dec 19, 2023 05:14:27 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:27 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:27 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:27 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:27 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 49</span>
+						<span class='test-time'>Dec 19, 2023 05:14:28 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:28 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:28 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:28 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:28 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 50</span>
+						<span class='test-time'>Dec 19, 2023 05:14:29 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:29 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:29 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:29 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:29 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='51'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 51</span>
+						<span class='test-time'>Dec 19, 2023 05:14:31 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:31 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:31 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:31 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:31 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='52'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 52</span>
+						<span class='test-time'>Dec 19, 2023 05:14:32 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:32 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:32 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:32 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:32 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 53</span>
+						<span class='test-time'>Dec 19, 2023 05:14:33 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:33 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:33 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:33 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:33 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='54'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 54</span>
+						<span class='test-time'>Dec 19, 2023 05:14:34 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:34 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:34 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:34 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:34 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='55'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 55</span>
+						<span class='test-time'>Dec 19, 2023 05:14:35 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:35 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:35 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:35 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:35 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 56</span>
+						<span class='test-time'>Dec 19, 2023 05:14:36 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:36 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:36 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:36 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:36 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='57'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 57</span>
+						<span class='test-time'>Dec 19, 2023 05:14:37 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:37 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:37 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:37 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:37 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='58'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 58</span>
+						<span class='test-time'>Dec 19, 2023 05:14:38 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:38 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:38 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:38 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:38 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='59'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 59</span>
+						<span class='test-time'>Dec 19, 2023 05:14:39 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:39 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:39 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:39 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:39 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='60'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 60</span>
+						<span class='test-time'>Dec 19, 2023 05:14:41 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:41 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:41 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:41 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:41 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 61</span>
+						<span class='test-time'>Dec 19, 2023 05:14:50 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:50 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:50 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:50 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:50 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='62'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 62</span>
+						<span class='test-time'>Dec 19, 2023 05:14:52 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:52 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:52 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:52 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:52 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='63'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 63</span>
+						<span class='test-time'>Dec 19, 2023 05:14:54 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:54 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:54 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:54 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:54 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='64'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 64</span>
+						<span class='test-time'>Dec 19, 2023 05:14:55 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:55 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:55 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:55 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:55 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='65'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 65</span>
+						<span class='test-time'>Dec 19, 2023 05:14:56 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:56 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:56 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:56 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:56 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='66'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 66</span>
+						<span class='test-time'>Dec 19, 2023 05:14:57 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:57 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:57 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:57 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:57 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='67'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 67</span>
+						<span class='test-time'>Dec 19, 2023 05:14:58 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:14:58 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:14:58 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:58 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:14:58 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='68'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 68</span>
+						<span class='test-time'>Dec 19, 2023 05:15:00 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:00 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:00 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:00 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:00 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='69'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 69</span>
+						<span class='test-time'>Dec 19, 2023 05:15:01 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:01 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:01 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:01 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:01 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='70'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 70</span>
+						<span class='test-time'>Dec 19, 2023 05:15:03 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:03 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:03 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:03 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:03 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='71'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 71</span>
+						<span class='test-time'>Dec 19, 2023 05:15:05 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:05 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:05 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:05 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:05 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='72'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 72</span>
+						<span class='test-time'>Dec 19, 2023 05:15:06 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:06 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:06 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:06 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:06 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='73'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 73</span>
+						<span class='test-time'>Dec 19, 2023 05:15:08 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:08 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:08 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:08 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:08 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='74'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 74</span>
+						<span class='test-time'>Dec 19, 2023 05:15:09 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:09 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:09 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:09 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:09 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='75'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 75</span>
+						<span class='test-time'>Dec 19, 2023 05:15:10 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:10 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:10 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:10 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:10 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='76'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 76</span>
+						<span class='test-time'>Dec 19, 2023 05:15:11 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:11 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:11 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:11 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:11 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='77'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 77</span>
+						<span class='test-time'>Dec 19, 2023 05:15:13 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:13 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:13 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:13 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:13 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='78'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 78</span>
+						<span class='test-time'>Dec 19, 2023 05:15:14 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:14 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:14 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:14 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:14 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='79'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 79</span>
+						<span class='test-time'>Dec 19, 2023 05:15:15 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:15 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:15 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:15 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:15 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='80'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 80</span>
+						<span class='test-time'>Dec 19, 2023 05:15:16 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:16 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:16 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:16 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:16 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='81'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 81</span>
+						<span class='test-time'>Dec 19, 2023 05:15:17 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:17 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:17 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:17 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:17 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='82'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 82</span>
+						<span class='test-time'>Dec 19, 2023 05:15:18 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:18 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:18 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:18 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:18 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='83'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 83</span>
+						<span class='test-time'>Dec 19, 2023 05:15:19 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:19 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:19 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:19 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:19 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='84'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 84</span>
+						<span class='test-time'>Dec 19, 2023 05:15:21 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:21 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:21 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:21 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:21 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='85'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 85</span>
+						<span class='test-time'>Dec 19, 2023 05:15:22 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:22 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:22 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:22 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:22 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='86'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 86</span>
+						<span class='test-time'>Dec 19, 2023 05:15:23 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:23 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:23 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:23 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:23 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='87'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 87</span>
+						<span class='test-time'>Dec 19, 2023 05:15:24 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:24 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:24 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:24 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:24 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='88'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 88</span>
+						<span class='test-time'>Dec 19, 2023 05:15:26 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:26 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:26 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:26 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:26 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='89'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 89</span>
+						<span class='test-time'>Dec 19, 2023 05:15:27 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:27 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:27 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:27 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:27 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='90'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 90</span>
+						<span class='test-time'>Dec 19, 2023 05:15:28 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:28 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:28 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:28 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:28 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='91'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 91</span>
+						<span class='test-time'>Dec 19, 2023 05:15:29 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:29 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:29 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:29 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:29 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='92'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 92</span>
+						<span class='test-time'>Dec 19, 2023 05:15:30 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:30 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:30 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:30 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:30 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='93'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 93</span>
+						<span class='test-time'>Dec 19, 2023 05:15:32 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:32 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:32 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:32 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:32 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='94'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 94</span>
+						<span class='test-time'>Dec 19, 2023 05:15:33 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:33 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:33 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:33 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:33 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='95'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 95</span>
+						<span class='test-time'>Dec 19, 2023 05:15:34 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:34 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:34 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:34 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:34 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='96'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 96</span>
+						<span class='test-time'>Dec 19, 2023 05:15:36 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:36 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:36 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:36 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:36 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='97'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 97</span>
+						<span class='test-time'>Dec 19, 2023 05:15:37 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:37 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:37 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:37 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:37 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='98'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 98</span>
+						<span class='test-time'>Dec 19, 2023 05:15:38 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:38 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:38 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:38 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:38 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='99'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 99</span>
+						<span class='test-time'>Dec 19, 2023 05:15:39 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:39 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:39 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:39 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:39 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='100'>
+					<div class='test-heading'>
+						<span class='test-name'>Website Test - Iteration 100</span>
+						<span class='test-time'>Dec 19, 2023 05:15:40 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 19, 2023 05:15:40 pm</span>
+	<span class='label end-time'>Dec 19, 2023 05:15:40 pm</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:40 pm</td>
+				<td class='step-details'>
+						Title: IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>5:15:40 pm</td>
+				<td class='step-details'>
+						Response Code: 200
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>100</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Dec 19, 2023 05:13:09 pm</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Dec 19, 2023 05:15:41 pm</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 2m 31s+796ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 100,
+				passParent: 100,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "Website Test - Iteration 1":0.015,"Website Test - Iteration 2":0.001,"Website Test - Iteration 3":0,"Website Test - Iteration 4":0,"Website Test - Iteration 5":0,"Website Test - Iteration 6":0,"Website Test - Iteration 7":0,"Website Test - Iteration 8":0.001,"Website Test - Iteration 9":0.001,"Website Test - Iteration 10":0,"Website Test - Iteration 11":0,"Website Test - Iteration 12":0,"Website Test - Iteration 13":0,"Website Test - Iteration 14":0,"Website Test - Iteration 15":0.001,"Website Test - Iteration 16":0,"Website Test - Iteration 17":0,"Website Test - Iteration 18":0,"Website Test - Iteration 19":0,"Website Test - Iteration 20":0.001,"Website Test - Iteration 21":0,"Website Test - Iteration 22":0,"Website Test - Iteration 23":0,"Website Test - Iteration 24":0,"Website Test - Iteration 25":0,"Website Test - Iteration 26":0,"Website Test - Iteration 27":0,"Website Test - Iteration 28":0,"Website Test - Iteration 29":0.001,"Website Test - Iteration 30":0,"Website Test - Iteration 31":0.001,"Website Test - Iteration 32":0,"Website Test - Iteration 33":0.001,"Website Test - Iteration 34":0.001,"Website Test - Iteration 35":0,"Website Test - Iteration 36":0,"Website Test - Iteration 37":0,"Website Test - Iteration 38":0,"Website Test - Iteration 39":0,"Website Test - Iteration 40":0,"Website Test - Iteration 41":0,"Website Test - Iteration 42":0,"Website Test - Iteration 43":0,"Website Test - Iteration 44":0,"Website Test - Iteration 45":0.001,"Website Test - Iteration 46":0,"Website Test - Iteration 47":0,"Website Test - Iteration 48":0,"Website Test - Iteration 49":0,"Website Test - Iteration 50":0,"Website Test - Iteration 51":0,"Website Test - Iteration 52":0,"Website Test - Iteration 53":0.001,"Website Test - Iteration 54":0,"Website Test - Iteration 55":0,"Website Test - Iteration 56":0,"Website Test - Iteration 57":0,"Website Test - Iteration 58":0,"Website Test - Iteration 59":0,"Website Test - Iteration 60":0,"Website Test - Iteration 61":0,"Website Test - Iteration 62":0,"Website Test - Iteration 63":0.001,"Website Test - Iteration 64":0.001,"Website Test - Iteration 65":0,"Website Test - Iteration 66":0.001,"Website Test - Iteration 67":0,"Website Test - Iteration 68":0,"Website Test - Iteration 69":0.001,"Website Test - Iteration 70":0,"Website Test - Iteration 71":0,"Website Test - Iteration 72":0.001,"Website Test - Iteration 73":0,"Website Test - Iteration 74":0,"Website Test - Iteration 75":0,"Website Test - Iteration 76":0,"Website Test - Iteration 77":0,"Website Test - Iteration 78":0,"Website Test - Iteration 79":0,"Website Test - Iteration 80":0,"Website Test - Iteration 81":0,"Website Test - Iteration 82":0,"Website Test - Iteration 83":0,"Website Test - Iteration 84":0,"Website Test - Iteration 85":0,"Website Test - Iteration 86":0,"Website Test - Iteration 87":0,"Website Test - Iteration 88":0,"Website Test - Iteration 89":0,"Website Test - Iteration 90":0.001,"Website Test - Iteration 91":0,"Website Test - Iteration 92":0,"Website Test - Iteration 93":0,"Website Test - Iteration 94":0,"Website Test - Iteration 95":0,"Website Test - Iteration 96":0,"Website Test - Iteration 97":0,"Website Test - Iteration 98":0,"Website Test - Iteration 99":0,"Website Test - Iteration 100":0
+			};
+		</script>
+	
+		  <script src='https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

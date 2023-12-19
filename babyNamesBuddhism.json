@@ -1,0 +1,4767 @@
+[
+  {
+    "Gender": "Boy",
+    "Meaning": "Weapon",
+    "Name": "A-wut"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Peaceful soaring; Peaceful air",
+    "Name": "Aang"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An angel who is very pretty or beautiful",
+    "Name": "Achara"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Safety",
+    "Name": "Adhiarja"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The first child of the second husband",
+    "Name": "Adika"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gentle",
+    "Name": "Adrix"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Powerful; Bold; Charismatic",
+    "Name": "Aerion"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and noble",
+    "Name": "Agaran"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Grand or great",
+    "Name": "Agung"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Red",
+    "Name": "Akai"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Bright, intelligent, gracious",
+    "Name": "Akihiro"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful; Serene; Calm",
+    "Name": "Akire"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Golden rose",
+    "Name": "Altansarnai"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Golden flower",
+    "Name": "Altantsetseg"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Protector of peace",
+    "Name": "Amanthi"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is prosperous",
+    "Name": "Ananada"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The sky",
+    "Name": "Angkasa"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Flower; Brave; Hero",
+    "Name": "Anh"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A gorgeous woman",
+    "Name": "Anong"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Small patience",
+    "Name": "Anuman"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The male angel in Thai mythology.",
+    "Name": "Anurak"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "To encircle; To embrace",
+    "Name": "Aom"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beautiful flower",
+    "Name": "Araliya"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A fluent man",
+    "Name": "Arban"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Powerful; Complete",
+    "Name": "Arison"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Sky",
+    "Name": "Arkar"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Strong; Resilient; Determined",
+    "Name": "Armelia"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Eagle; Strong and powerful; Leader",
+    "Name": "Arnit"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Arrow; Bold; Dynamic; Focused",
+    "Name": "Arro"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Noble; Courageous; Loyal",
+    "Name": "Arzoi"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Morning sun",
+    "Name": "Asahi"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Lightning",
+    "Name": "Asnee"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The sun",
+    "Name": "Atid"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Success; She who is destined for a successful life",
+    "Name": "Aung"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Golden; Gold",
+    "Name": "Aurie"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "One who fills or completes; One without sin",
+    "Name": "Avrin"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Cool",
+    "Name": "Aye"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Variation of Airis",
+    "Name": "Ayris"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Sun rays",
+    "Name": "Bagaskoro"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Handsome; Excellent",
+    "Name": "Bagus"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "An obedient boy",
+    "Name": "Bakti"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Slam, energetic, unconventional",
+    "Name": "Bam"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Ten Thousand Blessings",
+    "Name": "Bankei"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Everlasting",
+    "Name": "Banko"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Water",
+    "Name": "Banyu"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Indestructible Mountain",
+    "Name": "Banzan"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Jewel; Treasure; Precious",
+    "Name": "Bao"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "High Above Average",
+    "Name": "Bassui"
+  },
+  {
+    "Gender": "Erdene",
+    "Meaning": "Boy Strong jewel",
+    "Name": "Bat"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Hero; A heroic figure",
+    "Name": "Bataar"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong joy",
+    "Name": "Batbayar"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Firm happiness",
+    "Name": "Batjargal"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is strong and nice",
+    "Name": "Batsaikhan"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Firm; Hard or strong",
+    "Name": "Batuhan"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A firm ruler",
+    "Name": "Batukhan"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Courageous and strong",
+    "Name": "Batzorig"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Mother of joy",
+    "Name": "Bayarmaa"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Ray of light",
+    "Name": "Beam"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A seed or pod produced by several plants in the legume family which is used as a food source",
+    "Name": "Bean"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gracefull; Beautiful; Enchanting",
+    "Name": "Beia"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Blessed; Blessing",
+    "Name": "Bento"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Protector of Goodness",
+    "Name": "Bhadrapala"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A Chinesee name meaning Green Jade",
+    "Name": "Bi"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Jade",
+    "Name": "Bich"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bright; Radiant",
+    "Name": "Bingbing"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A game of chance where players mark off numbers on cards as they are randomly called out",
+    "Name": "Bingo"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Birch tree; Birch grove",
+    "Name": "Birkin"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A person who is a follower of Buddhism",
+    "Name": "Boddhidharma"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has an all-pervading awakened and enlighted mind",
+    "Name": "Bodhidharma"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Enlightened, intuitive, free-spirited",
+    "Name": "Bodi"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength; Endurance; Resilience",
+    "Name": "Boen"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Enlightenment, awakening",
+    "Name": "Bohdi"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "An elder brother of the rain",
+    "Name": "Bolin"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Crystal mother",
+    "Name": "Bolormaa"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Blessing or advantageous",
+    "Name": "Boon"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Lucky; A lucky and fortunate boy",
+    "Name": "Boon-Mee"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One born with a good fortune",
+    "Name": "Boon-Nam"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful",
+    "Name": "Boonsri"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Precious; Superior",
+    "Name": "Boram"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "White-haired warrior",
+    "Name": "Bowyn"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Warrior of God",
+    "Name": "Brahmadhvaja"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is a leader",
+    "Name": "Bu"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A friend of Buddha",
+    "Name": "Buddhamitra"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is enlightened",
+    "Name": "Budh"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has been enlightened",
+    "Name": "Budhh"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "To have reason, mind or a character",
+    "Name": "Budi"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligent and adventurous",
+    "Name": "Bulma"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Name meaning Buddha-Dharma-Sangha",
+    "Name": "Bupposo"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Yellow sapphire",
+    "Name": "Busarakham"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Buddha's eye",
+    "Name": "Butsugen"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Life of Buddha",
+    "Name": "Butsuju"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Chief",
+    "Name": "Buu"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Light in darkness",
+    "Name": "Cahya"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Rainbow",
+    "Name": "Caihong"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Rejoicing individual",
+    "Name": "Cais"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Warrior; Strong; Victorious",
+    "Name": "Caisen"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Quality or level of ability or skill",
+    "Name": "Caliber"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful; Undisturbed; Tranquil",
+    "Name": "Calm"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Fragrant flower",
+    "Name": "Camia"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A male name for those who are Buddhists",
+    "Name": "Candavira"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A moon-like man",
+    "Name": "Candrasurya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The endlessness of the environment",
+    "Name": "Canh\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Grasp",
+    "Name": "Cao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A natural underground space large enough for a human to enter",
+    "Name": "Cave\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Hawk",
+    "Name": "Cetan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Colorful; Multicolored",
+    "Name": "Chae\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Baby",
+    "Name": "Chaghatai\n"
+  },
+  {
+    "Gender": "Son\n",
+    "Meaning": "Boy A mischievous boy",
+    "Name": "Chai"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Victory",
+    "Name": "Chaisai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Victory",
+    "Name": "Chaiya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "An able bodied person",
+    "Name": "Chakan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Celebrated",
+    "Name": "Chalerm\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A celebrated victory",
+    "Name": "Chalermchai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The apex",
+    "Name": "Chaloem\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Friendly",
+    "Name": "Champo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "An experienced warrior",
+    "Name": "Channarong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Mighty",
+    "Name": "Chasin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Conversational interaction, typically informal or casual",
+    "Name": "Chat\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Thought; Intellect",
+    "Name": "Chenda\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is greatest and wise",
+    "Name": "Chenghiz\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Greatness",
+    "Name": "Chesa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who is great or powerful",
+    "Name": "Chewa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Dance",
+    "Name": "Cheza\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Seed of life",
+    "Name": "Chia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Everlasting or immortal",
+    "Name": "Chime\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Ornament",
+    "Name": "Chimeg\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A variant of Chenghiz; Greatest and wise",
+    "Name": "Chingis\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Chinese; From China",
+    "Name": "Chino\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A calm, soothing place",
+    "Name": "Chinshu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Blessings from God",
+    "Name": "Chinua\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Love; She who is lovable",
+    "Name": "Chit\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The devout one or religious",
+    "Name": "Choden\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Lamb of the Dharma",
+    "Name": "Chodren\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who overcomes the negative",
+    "Name": "Chomden\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wealth; Prosperity",
+    "Name": "Chon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Loyal; Faithful",
+    "Name": "Chong\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Transparent spirituality",
+    "Name": "Chorei\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Water that is pure and fit for drinking purpose",
+    "Name": "Chosui\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Clear; Transparent; Meditation; Practice",
+    "Name": "Chozen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Persuasion",
+    "Name": "Chuanchen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Transcending Universe; to exist above and independent",
+    "Name": "Chugai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Stone or he who is strong as stone",
+    "Name": "Chuluun\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Stone steel",
+    "Name": "Chuluunbold\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Chapter; a part of a whole story",
+    "Name": "Chuong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Knowledgeable; Talented",
+    "Name": "Cina\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mysterious; Unique; Artistic",
+    "Name": "Cire\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Supreme; Strong; Victorious",
+    "Name": "Cobe\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Tail",
+    "Name": "Coda\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Victory; Success",
+    "Name": "Coi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong-willed; determined; independent",
+    "Name": "Conri\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sweet biscuit",
+    "Name": "Cookie\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Warm; Comfortable; Relaxing",
+    "Name": "Cozy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mound knoll; Thoroughfare",
+    "Name": "Cu\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Flourishing; Healthy",
+    "Name": "Cuong\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Great joy",
+    "Name": "Dachen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Bright; Graceful; Talented",
+    "Name": "Daeun\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A small, sharp, handheld weapon used for stabbing",
+    "Name": "Dagger\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A Plum",
+    "Name": "Daibai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A transmission",
+    "Name": "Daiden\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The greatest way possible",
+    "Name": "Daido\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Filled with love and compassion",
+    "Name": "Daiji\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Enlightenment of mind",
+    "Name": "Daikaku\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Powerful and active",
+    "Name": "Daikan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Powerful light",
+    "Name": "Daiko\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has great patience",
+    "Name": "Dainin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Truthful; one who has a pure soul",
+    "Name": "Daishin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Related to the gods",
+    "Name": "Daivika\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and determined",
+    "Name": "Dake\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Noble or Ocean",
+    "Name": "Dalai\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beloved gift from God",
+    "Name": "Dalin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Sacred",
+    "Name": "Dampa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "To be in love; To love one another",
+    "Name": "Danai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Among Donors",
+    "Name": "Danasura\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gift of God",
+    "Name": "Daneel\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Path; Way",
+    "Name": "Dao\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Very powerful man from the heart",
+    "Name": "Dasbala\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is content",
+    "Name": "Dashin\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beloved; Cherished",
+    "Name": "Davika\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is the storehouse of compassion",
+    "Name": "Dayakurca\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Power; A powerful person",
+    "Name": "Decha\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "One who can reach out for happiness and joy",
+    "Name": "Dechen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Having happiness",
+    "Name": "Dedan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Crafter or Maker",
+    "Name": "Dekker\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Understands and embraces tradition",
+    "Name": "Demar\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One active as lightning",
+    "Name": "Denkatsu\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A variant of Denpo; Truth",
+    "Name": "Denpa\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Truth",
+    "Name": "Denpo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Desire for progress or advancement",
+    "Name": "Deshan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Wandering; Roaming",
+    "Name": "Dessa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Joyful or rejoice",
+    "Name": "Desta\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beauty; Cool and popular person",
+    "Name": "Dezzy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Elder sister",
+    "Name": "Didi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beautiful lion",
+    "Name": "Dilshan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who loves to be in a peaceful state",
+    "Name": "Dipankara\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has the power to overcome every obstacle",
+    "Name": "Divijata\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "One who leads",
+    "Name": "Doan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Female deer or rabbit",
+    "Name": "Doe\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Path of love",
+    "Name": "Dojin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Way steps",
+    "Name": "Dokai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who understands the ways of a dragon",
+    "Name": "Doryu\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who preserves morality; Understands love",
+    "Name": "Doyu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beloved",
+    "Name": "Draegan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has a pure heart; Loving nature",
+    "Name": "Drdhahanus\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A person who is stubborn but of a friendly nature",
+    "Name": "Drtaka\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Thunder dragon",
+    "Name": "Druk\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Peace-loving individuals",
+    "Name": "Druki\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Strong or firm",
+    "Name": "Duan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Right from the heart",
+    "Name": "Duangkamol\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Full moon",
+    "Name": "Duanphen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Fortress",
+    "Name": "Dzhambul\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Illuminating way; one who can do great things",
+    "Name": "Eido\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A name of Lord Indra",
+    "Name": "Eindra\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sharp and intelligent",
+    "Name": "Eizan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is virtuous and ocean of wisdom",
+    "Name": "Ekaijinko\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong, resilient, leader",
+    "Name": "Eko\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "God-like, strong, noble",
+    "Name": "Elo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Peaceful happiness; Peaceful blessing",
+    "Name": "Enkhjargal\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Ray of peace",
+    "Name": "Enkhtuya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Bright circle; Life sustaining",
+    "Name": "Enmei\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Circle, Zen, Enlightenment",
+    "Name": "Enso\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Artistic; Independent",
+    "Name": "Enyah\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Treasure",
+    "Name": "Erden\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Jewel; Ornament",
+    "Name": "Erdenechimeg\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A musical instrument",
+    "Name": "Erhi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Understanding mind; Wisdom",
+    "Name": "Eshin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Hopeful or one who hopes",
+    "Name": "Esper\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "divine, celestial, otherworldly",
+    "Name": "Ethereal\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Picture; Painting",
+    "Name": "Eto\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Joy; Child",
+    "Name": "Etsudo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Well mind; Beautiful thinking",
+    "Name": "Eunoia\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Plants that maintain their leaves all year round; Always green",
+    "Name": "Evergreen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Dynamic; Modern; Innovative",
+    "Name": "Evo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God strengthens",
+    "Name": "Ezias\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A new beginning",
+    "Name": "Fa\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Beginning",
+    "Name": "Fai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Imagination; Enchantment; Unreal",
+    "Name": "Fantasy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Relating to cats or cat family",
+    "Name": "Feline\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is like a phoenix; Maple",
+    "Name": "Feng\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Narrow, deep inlet",
+    "Name": "Fjord\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "fragrant or aromatic",
+    "Name": "Fong\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Flower; Fragrant; Free-spirited",
+    "Name": "Freesia\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Well-to-do; Prosperous",
+    "Name": "Fu\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Prosperous objective or flourishing opinion",
+    "Name": "Fuji\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Extensive condemnation",
+    "Name": "Fumihiro\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Academic; Intellectual",
+    "Name": "Fumiko\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The bold one",
+    "Name": "Gan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Steel hero",
+    "Name": "Ganbaatar\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Steel",
+    "Name": "Ganbold\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Hard; Rigid; Strong",
+    "Name": "Gang\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Steel axe",
+    "Name": "Gansukh\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Steel hearth",
+    "Name": "Gantulga\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Steel; Courage; Brave; A brave man",
+    "Name": "Ganzorig\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Goddess of dance",
+    "Name": "Garma\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Joy and happiness",
+    "Name": "Gawa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Angels",
+    "Name": "Geles\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Universal ruler",
+    "Name": "Genghis\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Gold; Two beginnings",
+    "Name": "Genji\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The one who deserves honor and integrity",
+    "Name": "Genkei\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Light",
+    "Name": "Gerel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Positive karma",
+    "Name": "Gewa\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "River; Source",
+    "Name": "Giang\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Movement, energy, progress",
+    "Name": "Go\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Masculine, Japanese, rice or meal",
+    "Name": "Gohan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The individual with a sixth sense, high energy levels, and sensitivity",
+    "Name": "Goldeheve\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "One with a huge collection of ornaments; Intelligent",
+    "Name": "Goldeholda\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "War salve; War ointment; Dark war; War house",
+    "Name": "Gonzo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Heavenly sky; Straight; Perfect",
+    "Name": "Goten\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Large; Impressive; Magnificent",
+    "Name": "Grand\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The radiance of guru",
+    "Name": "Gurtej\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Taking support of guru",
+    "Name": "Gurtek\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Glorious, peaceful",
+    "Name": "Haein\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Powerful; Warrior",
+    "Name": "Haika\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Summer; Great; Talented",
+    "Name": "Hajoon\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Pure blessing",
+    "Name": "Hakue\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Angry, vengeful spirit",
+    "Name": "Hannya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Puffy Cheeks",
+    "Name": "Hanumanta\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Hindu Lord Rama",
+    "Name": "Hanumanth\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Brilliant; Courageous; Ambitious",
+    "Name": "Haoyu\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Forest",
+    "Name": "Hayma\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A variant of Hayma; Forest.",
+    "Name": "Haymar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Blessed; Holy",
+    "Name": "Heljo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Successful; Victorious",
+    "Name": "Hella\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One of the names of Buddha",
+    "Name": "Hemlal\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sunflower or Sun's Flower",
+    "Name": "Himawari\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Secretive; Reserved",
+    "Name": "Hisoka\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who is beautiful",
+    "Name": "Hla\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Plenty; Plentiful",
+    "Name": "Hlaing\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Hope",
+    "Name": "Hobi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A famous man",
+    "Name": "Hopkins\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "son of Hob",
+    "Name": "Hopkinson\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "High; Noble",
+    "Name": "Hoy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Rich and wealthy",
+    "Name": "Htay\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "One who is sharp",
+    "Name": "Htet\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Appear; Appearance",
+    "Name": "Htin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Succeed",
+    "Name": "Htun\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Apex; Tip",
+    "Name": "Htut\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Youngest",
+    "Name": "Htway\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A storm",
+    "Name": "Hurricane\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Older brother; Senior",
+    "Name": "Huynh\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Island dweller; From the high land",
+    "Name": "Hylan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Being cold or frosty",
+    "Name": "Icy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Short form of Leonard",
+    "Name": "Ien\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Powerful; Leader",
+    "Name": "Ikora\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Brightness; Radiance; Sun",
+    "Name": "Ilian\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Masculine variant of Ilina",
+    "Name": "Ilin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Representation or reflection of something",
+    "Name": "Image\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Name of the bow and arrow-wielding son of the conqueror of the king of Gods",
+    "Name": "Indazita\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Ancestor",
+    "Name": "Ing\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong, courageous, powerful",
+    "Name": "Iniko\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Prayer; Offerings",
+    "Name": "Inzali\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gift from God",
+    "Name": "Isan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Gift of God",
+    "Name": "Isara\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gracious, strong, determined",
+    "Name": "Issey\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Mystical; Vibrant",
+    "Name": "Isyss\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God is with me",
+    "Name": "Itsel\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Tree",
+    "Name": "Itsuki\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Yew wood",
+    "Name": "Iu\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Strong-willed; Powerful",
+    "Name": "Izetta\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Prosperous; Talented; Ambitious",
+    "Name": "Jaemin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Principled leader with ambition",
+    "Name": "Jaewon\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A god-like person",
+    "Name": "Jahlee\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has hope in God",
+    "Name": "Jahleel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Kindness or benevolence",
+    "Name": "Jampa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Combination of Jane and Asia",
+    "Name": "Janasia\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Victorious sun",
+    "Name": "Jayasurya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Experiencing victory; Rejoicing for victory",
+    "Name": "Jayathi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Talented",
+    "Name": "Jeon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Lively; Full of life",
+    "Name": "Jeta\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Peaceful, meditative, focused",
+    "Name": "Jhana\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Wisdom; Beauty",
+    "Name": "Ji-yeon\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Resembling a dragon; Scaled dragon",
+    "Name": "Jiao-long\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Smart, talented, intelligent",
+    "Name": "Jiaqi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is pure and chaste",
+    "Name": "Jie\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Refers to the sea of sympathy; A nurturing individual",
+    "Name": "Jikai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Precious, gentle, beloved",
+    "Name": "Jimin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Independent, quick in decisions, frank, straightforward and avoid hypocrisy; Industrious and benevolent",
+    "Name": "Jimmyl\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Commited to their family and friends; Responsible, sensitive and loving in nature; Possess the skill to balance their life",
+    "Name": "Jimuta\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gold",
+    "Name": "Jin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Pearl",
+    "Name": "Jinju\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Spiritual, wise, illuminated",
+    "Name": "Jinora\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God's protection; Protected by God",
+    "Name": "Jiwoo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Son of Chenghiz",
+    "Name": "Jochi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God is gracious",
+    "Name": "Jolin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Justice of the peace; Silver",
+    "Name": "Jp\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Righteous, upright",
+    "Name": "Justeene\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Lawful, just",
+    "Name": "Justen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Creative; Unique",
+    "Name": "Jyn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Maple",
+    "Name": "Kaeda\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Warrior; Strong; Powerful",
+    "Name": "Kaedon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Fiery; Intense; Passionate",
+    "Name": "Kaen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength; Resilience; Determination",
+    "Name": "Kaeson\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Ocean-related; Sea-related",
+    "Name": "Kaien\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful",
+    "Name": "Kairin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Navy; Marine",
+    "Name": "Kairu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Continuous improvement",
+    "Name": "Kaizen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The torch; Flaming torch",
+    "Name": "Kalama\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The head of the village",
+    "Name": "Kamnan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Little turtles; He who preserves",
+    "Name": "Kamon\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Fortune",
+    "Name": "Kan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A beautiful flower",
+    "Name": "Kannika\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Design or pattern",
+    "Name": "Kanok\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Kanok means gold, Wan means sweet",
+    "Name": "Kanokwan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Mind; Open heart",
+    "Name": "Kanshin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "High; Tall",
+    "Name": "Kao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mysterious essence",
+    "Name": "Kaon\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Brave with the Gods grace",
+    "Name": "Karambir\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beloved Peace",
+    "Name": "Karamia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A bird found in Thailand; Bird",
+    "Name": "Karawek\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Noble; Strong; Brave",
+    "Name": "Kariya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A beautiful and lovely girl",
+    "Name": "Karnchana\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "River; Sand",
+    "Name": "Kasai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A victorious celebration",
+    "Name": "Kasemchai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique, strong, and mysterious",
+    "Name": "Ke\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He promotes the wisdom",
+    "Name": "Keisho\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong, wise, intelligent",
+    "Name": "Kenichi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong, fearless warrior",
+    "Name": "Kenshiro\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and courageous",
+    "Name": "Keo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The house of the peaceful one",
+    "Name": "Kerouac\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Fabulous period of time",
+    "Name": "Kesang\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Be subservient; Wait",
+    "Name": "Kha\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Noble, strong-willed, and beautiful",
+    "Name": "Khalyla\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A strong and powerful man",
+    "Name": "Khemkhaeng\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Nobody",
+    "Name": "Khenbish\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Kindness; One who is kind",
+    "Name": "Khin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Firm",
+    "Name": "Khine\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligent, industrious, diligent",
+    "Name": "Khoa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Thistle",
+    "Name": "Khongordzol\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Onager; Wild donkey",
+    "Name": "Khulan\n"
+  },
+  {
+    "Gender": "Mae\n",
+    "Meaning": "Girl The honorable mother",
+    "Name": "Khun"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Not a human being",
+    "Name": "Khunbish\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Determined; Courageous",
+    "Name": "Khye\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Lucky; Blessed",
+    "Name": "Kichi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Hollyhock; Garden",
+    "Name": "Kien\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Little dark one; Small dark-haired",
+    "Name": "Kierin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Joys or Rejoicer",
+    "Name": "Kiko\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Kinetic, lively, adventurous",
+    "Name": "Kino\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Hopeful, determined, strong",
+    "Name": "Kitai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Famous fortune",
+    "Name": "Kittibun\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Famous clan or belonging to a famous clan",
+    "Name": "Kittichat\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Pure, beautiful, pure beauty",
+    "Name": "Kiyomi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A brave and bold man",
+    "Name": "Kla\n"
+  },
+  {
+    "Gender": "Kla\n",
+    "Meaning": "Boy One who is brave and daring",
+    "Name": "Klaew"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Zen enlightenment; paradoxical question",
+    "Name": "Koan\n"
+  },
+  {
+    "Gender": "Sook\n",
+    "Meaning": "Boy A man with his heart full of happiness",
+    "Name": "Kob"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The ancient Buddha",
+    "Name": "Kobutsu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Voice; Sound",
+    "Name": "Koe\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Lotus in Thai language",
+    "Name": "Kohsoom\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The universal principles",
+    "Name": "Koju\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Ancient reflection",
+    "Name": "Kokan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Heart; Mind",
+    "Name": "Kokoro\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Big Water",
+    "Name": "Kongkea\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A nickname or term of endearment derived from ‘cookie’",
+    "Name": "Kookie\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Country in East Asia",
+    "Name": "Korea\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Step by step upwards",
+    "Name": "Koshing\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong, noble, courageous",
+    "Name": "Kou\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Lion, as brave as a lion.",
+    "Name": "Kraisee\n"
+  },
+  {
+    "Gender": "Krai\n",
+    "Meaning": "Boy A man who is well versed in victory.",
+    "Name": "Kriang"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Short, Strong, Courageous",
+    "Name": "Krillin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength and power",
+    "Name": "Kru\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "To view; To see",
+    "Name": "Kuan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Longevity or eternal life",
+    "Name": "Kubo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The flower rose.",
+    "Name": "Kulap\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One with a good temper.",
+    "Name": "Kumbikhanna\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Deer",
+    "Name": "Kwang\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Famous; Fame",
+    "Name": "Kyaw\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mysterious; Unique",
+    "Name": "Kyen\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Clear",
+    "Name": "Kyi\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who smells sweet",
+    "Name": "Kyine\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Rich",
+    "Name": "Kywe\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Land of lakes; From the fjord land",
+    "Name": "Lachlann\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Graceful; Talented",
+    "Name": "Lalisa\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gentle",
+    "Name": "Lamon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Heavenly beach",
+    "Name": "Lanikai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Old; elder",
+    "Name": "Lao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God is my help",
+    "Name": "Laser\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Concealed; Hidden",
+    "Name": "Latia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful",
+    "Name": "Lawan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An attribute; Characteristic; Quality",
+    "Name": "Leakhena\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A small person",
+    "Name": "Lek\n"
+  },
+  {
+    "Gender": "Jie\n",
+    "Meaning": "Boy Beautiful; Heroic",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Jing\n",
+    "Meaning": "Girl Beautiful spirit",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Jun\n",
+    "Meaning": "Boy Beautiful; Talented",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Na\n",
+    "Meaning": "Girl Beautiful; Graceful; Delicate",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Qiang\n",
+    "Meaning": "Boy Beautiful and strong",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Wei\n",
+    "Meaning": "Boy Beautiful; Extraordinary",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Xiu\n",
+    "Meaning": "Girl Beautiful; Elegant",
+    "Name": "Li"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Graceful; Compassionate; Loyal",
+    "Name": "Liann\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Calm; Serene",
+    "Name": "Liem\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Small; Tiny; Insignificant; Unimportant",
+    "Name": "Little\n"
+  },
+  {
+    "Gender": "Wei\n",
+    "Meaning": "Boy Kill; Destroy; Power; Pomp; High; Extraordinary",
+    "Name": "Liu"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Wisdom",
+    "Name": "Loday\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Little noble one; Warrior",
+    "Name": "Lohan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Dragon greatness",
+    "Name": "Longwei\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bat",
+    "Name": "Lovi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength and protection",
+    "Name": "Lowyn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Light; Shine",
+    "Name": "Lumine\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moon-loving; Adorer of the moon",
+    "Name": "Lunamaria\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Extravagance and luxury",
+    "Name": "Luxx\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Outstanding",
+    "Name": "Lwin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Variant of Lynx; Light; Brightness",
+    "Name": "Lynix\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A good beginning",
+    "Name": "Madee\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Powerful; Brave",
+    "Name": "Maiki\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and determined",
+    "Name": "Maisen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mechanical; Strength; Power",
+    "Name": "Makina\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Flower; A flower in Thailand",
+    "Name": "Malee\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Jasmine",
+    "Name": "Malila\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Climbing jasmine",
+    "Name": "Malivalaya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Garland",
+    "Name": "Marlar\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A structure or arrangement of elements or data in rows and columns",
+    "Name": "Matrix\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Brother",
+    "Name": "Maung\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bold; Maverick; Independent",
+    "Name": "Mav\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beautiful and delicate",
+    "Name": "Mayling\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Graceful, gentle, beautiful",
+    "Name": "Mayu\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful",
+    "Name": "Mayuree\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique and modern",
+    "Name": "Mayze\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "I don’t know",
+    "Name": "Medekhgui\n"
+  },
+  {
+    "Gender": "Noi\n",
+    "Meaning": "Boy Little bear",
+    "Name": "Mee"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Bright; Intelligent; Clever",
+    "Name": "Meng\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Variant of America; patriotic, American pride",
+    "Name": "Merica\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Graceful and serene",
+    "Name": "Merina\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The light that illuminates all",
+    "Name": "Meruem\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wrong meaning",
+    "Name": "Meteo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Graceful, gentle, resilient",
+    "Name": "Miliana\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Dove",
+    "Name": "Mima\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Harbor",
+    "Name": "Minato\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligent, talented, beautiful",
+    "Name": "Minji\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Small aquatic creature",
+    "Name": "Minnow\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Joyful, serene, beloved",
+    "Name": "Mirin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Shrine; Palace; Festival",
+    "Name": "Miyagi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peach in Japanese",
+    "Name": "Momo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Day of the week, beginning, fresh start",
+    "Name": "Monday\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "World; Something that is large; extreme",
+    "Name": "Mondo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Crown",
+    "Name": "Mongkut\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mongol country’s morning",
+    "Name": "Mongolekhorniiugluu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Bold; Confident",
+    "Name": "Monie\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "One who lives in a monastery",
+    "Name": "Monk\n"
+  },
+  {
+    "Gender": "Erdene\n",
+    "Meaning": "Unisex Eternal family",
+    "Name": "Monkh"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Eternal firmness",
+    "Name": "Monkhbat\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Single; Alone; One",
+    "Name": "Mono\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong and brave",
+    "Name": "Montell\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gentle; Serene; Mystical",
+    "Name": "Moonlight\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Forest or woods",
+    "Name": "Mori\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Infinite, boundless or limitless",
+    "Name": "Mugen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Warrior, Brave, Heroine",
+    "Name": "Mulan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Eternal flower",
+    "Name": "Munkhtsetseg\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wood rat",
+    "Name": "Mushu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A word name",
+    "Name": "Music\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A vicious dog",
+    "Name": "Muunokhoi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Forest",
+    "Name": "Myaing\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Better",
+    "Name": "Myat\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique and feminine",
+    "Name": "Myella\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Emerald",
+    "Name": "Myia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Forest",
+    "Name": "Myine\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "High",
+    "Name": "Myint\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A charming lady",
+    "Name": "Myitzu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Relative",
+    "Name": "Myo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mysterious, spiritual, enigmatic",
+    "Name": "Mystic\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Eight hundred precious flowers",
+    "Name": "Naimanzuunnadintsetseg\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Win",
+    "Name": "Naing\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Ocean; Sea",
+    "Name": "Namal\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Beautiful; Mysterious; Artistic",
+    "Name": "Namine\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Powerful; Mysterious",
+    "Name": "Namor\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Rejoice or happiness",
+    "Name": "Nandar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sunlight",
+    "Name": "Narangerel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sunflower",
+    "Name": "Narantsetseg\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "War mongering; Ready for war",
+    "Name": "Narong\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Intelligent",
+    "Name": "Natcha\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A patriotic man",
+    "Name": "Nation\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sheepskin",
+    "Name": "Nekhii\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Death; Violent end",
+    "Name": "Nex\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Year; Annual",
+    "Name": "Nian\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Natural; Simple",
+    "Name": "Nicha\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Specialized, distinct, focused",
+    "Name": "Niche\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Holy scriptures; Collection of teachings",
+    "Name": "Nikaya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sapphire",
+    "Name": "Nilar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sapphire",
+    "Name": "Nin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Overcoming challenges",
+    "Name": "Nio\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Foam born; Born of foam",
+    "Name": "Nion\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wake up",
+    "Name": "No\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Dignified; Honorable; Noble-minded",
+    "Name": "Noble\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Little; Small",
+    "Name": "Noi\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful sunshine",
+    "Name": "Norika\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Dog",
+    "Name": "Nugai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Wisdom",
+    "Name": "Nyan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Quiet; Calmness",
+    "Name": "Nyein\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Calm; Peaceful",
+    "Name": "Nyema\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sun, radiance, brightness",
+    "Name": "Nyima\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Modern; Ethereal",
+    "Name": "Nylo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Blossom",
+    "Name": "Nyunt\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God's gracious gift",
+    "Name": "Oan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sparkle",
+    "Name": "Och\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Star",
+    "Name": "Od\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Starlight",
+    "Name": "Odgerel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Star flower",
+    "Name": "Odtsetseg\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Mongolian word for chrysanthemum flower",
+    "Name": "Odval\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Not at all",
+    "Name": "Ogtbish\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "King",
+    "Name": "Oh\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Descendant of Eaghra; A feared one",
+    "Name": "Ohara\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Linseed flower",
+    "Name": "Ohma\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Insane",
+    "Name": "Ohnmar\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who understands",
+    "Name": "Oktai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The sun",
+    "Name": "Olias\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Infinite light",
+    "Name": "Opame\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Big snake",
+    "Name": "Orochi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Powerful; Determined",
+    "Name": "Ory\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Thank you; A person's favorite idol or actor",
+    "Name": "Oshi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bear",
+    "Name": "Oso\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Youngest joy",
+    "Name": "Otgonbayar\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Working cattle",
+    "Name": "Ox\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Wisdom ornament",
+    "Name": "Oyunchimeg\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Decorated or noble mind",
+    "Name": "Oyuunchimeg\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peace",
+    "Name": "Paisyn\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A beautiful gemstone found in Thailand.",
+    "Name": "Paitoon\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The fighter kite",
+    "Name": "Pakpao\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "One who has a lot of power and strength",
+    "Name": "Pali\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Venus or Friday",
+    "Name": "Pasang\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Pecan",
+    "Name": "Pecos\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A Lotus",
+    "Name": "Pema\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Respect for the lotus",
+    "Name": "Pemala\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Lotus throne",
+    "Name": "Penden\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Love",
+    "Name": "Pendo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The beauty of the moon",
+    "Name": "Pensri\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "To prosper and flourish",
+    "Name": "Phaibun\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Pleasant sounding",
+    "Name": "Phairoh\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Sun",
+    "Name": "Phassakorn\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Pleasing to the eye",
+    "Name": "Phawta\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique, philosophical, mathematical",
+    "Name": "Phi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "To win; One who is habituated to win",
+    "Name": "Phichit\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An adorable woman",
+    "Name": "Phitsamai\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Glory",
+    "Name": "Phone\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Abundant; Rich; Wealthy",
+    "Name": "Phu\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Bee",
+    "Name": "Phueng\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Buddhist religious dagger used for rituals by Buddhist masters",
+    "Name": "Phurba\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "White",
+    "Name": "Phyu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Will; Desire; Resolution",
+    "Name": "Pim\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful as the moon",
+    "Name": "Pimchan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Picture element",
+    "Name": "Pixel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Precious stone or gem",
+    "Name": "Ploy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "An invented name",
+    "Name": "Pod\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Valuable, cherished, unique",
+    "Name": "Precious\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Intelligence; An intelligent and smart woman",
+    "Name": "Prija\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Noble, royal, regal",
+    "Name": "Princes\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Flank",
+    "Name": "Qacha\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Cloudlet",
+    "Name": "Qara\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Modesty, humbleness",
+    "Name": "Qian\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong, talented, leader",
+    "Name": "Quan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Enigmatic, ethereal, mysterious",
+    "Name": "Quynh\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intense anger or fury",
+    "Name": "Rage\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong, intelligent, and mysterious",
+    "Name": "Raizo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Exalted one; heavenly",
+    "Name": "Rakia\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The reckless one",
+    "Name": "Rambo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Japanese noodle soup dish",
+    "Name": "Ramen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A deer",
+    "Name": "Rancy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Authentic, genuine, true",
+    "Name": "Real\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Joyful or delightful",
+    "Name": "Ream\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Ancient; Prized object",
+    "Name": "Relic\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and resilient",
+    "Name": "Rem\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Lotus; Benevolent; Righteous",
+    "Name": "Renji\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Furious child",
+    "Name": "Retsuko\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Graceful; Serene; Ethereal",
+    "Name": "Rhaine\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Red-haired; Red river",
+    "Name": "Rhue\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Poetic; Musical; Lyrical",
+    "Name": "Rhyme\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Rhythmic; Musical; Sound of rhythm",
+    "Name": "Rhyson\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Ascend; Growth; Uplift",
+    "Name": "Rise\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Good in fighting",
+    "Name": "Ritthirong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Rock",
+    "Name": "Roc\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sweet words; One who is very sweet with the words",
+    "Name": "Rochana\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Someone who lived by a clearing in the woods",
+    "Name": "Rode\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Fame",
+    "Name": "Rohm\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Cute and unique",
+    "Name": "Roo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Famous and powerful ruler",
+    "Name": "Rorick\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Soft; Gentle",
+    "Name": "Rou\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong and resilient",
+    "Name": "Rovan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A disturbance or commotion",
+    "Name": "Ruckus\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Powerful; Innovative; Cutting-edge",
+    "Name": "Ryzen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique and rare",
+    "Name": "Sacai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "to strive or to make an effort",
+    "Name": "Sae\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Starlight",
+    "Name": "Saengdao\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Power; A powerful person",
+    "Name": "Sakda\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Protector; One who brings happiness",
+    "Name": "Sakiya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Buddhist heritage or the Buddha's clan",
+    "Name": "Sakya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Goddess of agriculture",
+    "Name": "Salaya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A woman who is beautiful and beloved",
+    "Name": "Samorn\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moon",
+    "Name": "San\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful, noble, fortunate",
+    "Name": "Sanchi\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moon",
+    "Name": "Sandar\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Truth",
+    "Name": "Sanni\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Something that sounds pleasant",
+    "Name": "Sanoh\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An enjoyable festival",
+    "Name": "Sanouk\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moonlight",
+    "Name": "Sarangerel\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moonbeam",
+    "Name": "Sarantsatsral\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Rose",
+    "Name": "Sarnai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Enlightenment or awakening",
+    "Name": "Satori\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sharp and cutting",
+    "Name": "Saw\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Blissful; blessed",
+    "Name": "Seela\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Farewell or goodbye",
+    "Name": "Seeya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Heard",
+    "Name": "Semon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Pure; Chaste",
+    "Name": "Senga\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Good; Mercy; Kindness; Virtous",
+    "Name": "Seon\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Calm and peaceful",
+    "Name": "Serein\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Egyptian god of chaos and the desert",
+    "Name": "Set\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Shadow; Shade",
+    "Name": "Seya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gifted; Graceful; Powerful",
+    "Name": "Seylah\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Noble; Strong; Courageous",
+    "Name": "Shaelin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Feminine; Unique; Spiritual",
+    "Name": "Shaiya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique and spirited warrior",
+    "Name": "Shakiya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Noble, wise, enlightened",
+    "Name": "Shakya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Monastic martial arts",
+    "Name": "Shaolin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Reflection; Mirror’s reflection; Reflection of either of the parent",
+    "Name": "Shein\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who tries to benefit others",
+    "Name": "Shenden\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Radiance, brilliance, or glow",
+    "Name": "Shine\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gold",
+    "Name": "Shway\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Mysterious; Enchanting",
+    "Name": "Shylin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Thailand, ancient kingdom",
+    "Name": "Siam\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Enlightened one or one who has achieved his goal",
+    "Name": "Siddhartha\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Glorious victory; Man",
+    "Name": "Sirichai\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A woman with the qualities of a Queen",
+    "Name": "Sirikit\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Glory; Splendour; Blessing",
+    "Name": "Siriporn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Valley; Low-lying marshy ground",
+    "Name": "Slader\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Expression of happiness or amusement shown by turning up the corners of the mouth",
+    "Name": "Smile\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Well-born; Well-grown",
+    "Name": "Socheata\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "She who dominates",
+    "Name": "Soe\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Radiant; Sunny; Celestial",
+    "Name": "Solia\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful; Sunlit",
+    "Name": "Solina\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Turning point or change in season",
+    "Name": "Solstice\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is macho and manly",
+    "Name": "Somchair\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Male child",
+    "Name": "Son\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A charitable, kind, and noble person",
+    "Name": "Soo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Graceful; Intelligent; Diligent",
+    "Name": "Soojin\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who is of pure nature",
+    "Name": "Sook\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An incredibly pretty girl",
+    "Name": "Sopa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who is a clever and wise one",
+    "Name": "Sophea\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gentle face",
+    "Name": "Sopheak\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Lily flower",
+    "Name": "Sosan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Adore; Bright; Sincere; The sound of the wind",
+    "Name": "Sou\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "He who is golden",
+    "Name": "Sovann\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Golden, radiant, beautiful",
+    "Name": "Sovanna\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "He who is made of gold",
+    "Name": "Sovannah\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He is like a gold",
+    "Name": "Sovay\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Royal, powerful, ruler",
+    "Name": "Sovereign\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Perfect girl",
+    "Name": "Sreyleak\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Surname; A place name or geographical feature",
+    "Name": "Stokes\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Design; Manner of doing things",
+    "Name": "Styles\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Tiger",
+    "Name": "Sud\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who is a daughter",
+    "Name": "Suda\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Pure or one who has good virtue",
+    "Name": "Sujin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Hero of the axe; Axe hero",
+    "Name": "Sukhbataar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "The sand child or the dark side",
+    "Name": "Sunako\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sweet and delightful chocolaty treat",
+    "Name": "Sundae\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Beautiful sunrise, radiant joy",
+    "Name": "Sunisa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A woman with beautiful eyes",
+    "Name": "Sunstra\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She is like a fog",
+    "Name": "Suong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Extremely good; Great; Large; Above and beyond",
+    "Name": "Super\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A very slight sound; A quiet person",
+    "Name": "Susu\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is a little wolf",
+    "Name": "Syaoran\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Refusal; Denial",
+    "Name": "Syn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gift or talent",
+    "Name": "Ta\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Splendid or glittering",
+    "Name": "Taban\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Faithful light",
+    "Name": "Tadaaki\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Good; Virtous; Loyalty; Devotion",
+    "Name": "Tadashi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Great; Honor; Brave",
+    "Name": "Tae\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Bright or shining spirit",
+    "Name": "Taemin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Innovative; Ambitious",
+    "Name": "Taeo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful or great",
+    "Name": "Tai\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Means a thick or big one",
+    "Name": "Taichi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Big; Bud; Gracious",
+    "Name": "Taiga\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wild mountain",
+    "Name": "Taigan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong, fearless, warrior",
+    "Name": "Taigen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Big, great tree; Full of brightness",
+    "Name": "Taiki\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Warrior, strong, victorious",
+    "Name": "Taison\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "terraced bay",
+    "Name": "Taiwan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The yellow and silver color",
+    "Name": "Taji\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Tall; Honorable peregrine",
+    "Name": "Taka\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Abundantly respectful and loving",
+    "Name": "Takahiro\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The next world",
+    "Name": "Takai\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Child who is an aristocrat",
+    "Name": "Takako\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beloved jewel; Treasure",
+    "Name": "Takara\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Precious item; Precious one",
+    "Name": "Takarra\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Prosperous; Noble",
+    "Name": "Takashi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Precious measure of exaltation",
+    "Name": "Takato\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who has much respect for someone",
+    "Name": "Takaya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Warrior; One who fights for his kingdom",
+    "Name": "Takeo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Plunging waterfall",
+    "Name": "Taki\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Young; Living just for a little time yet",
+    "Name": "Taku\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "An open truth",
+    "Name": "Takuma\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Guardian; Protector",
+    "Name": "Talis\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Combination of the names Tamara, meaning \"palm tree,\" and Lynn, meaning \"lake\"",
+    "Name": "Tamlyn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Enchanting; Strong; Unique",
+    "Name": "Tamron\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Knowledge",
+    "Name": "Tanawat\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Touch",
+    "Name": "Tango\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Beautiful view",
+    "Name": "Tansanee\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Large waves",
+    "Name": "Tao\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is skillful",
+    "Name": "Tarkhan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A vast and huge sea of water",
+    "Name": "Taru\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A beautiful view",
+    "Name": "Tasanee\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A place of worship or religious ritual activities",
+    "Name": "Temple\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Of iron",
+    "Name": "Temujin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Buddhist doctrine",
+    "Name": "Tenpa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Determination; Strength",
+    "Name": "Tensley\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Protector of Dharma",
+    "Name": "Tenzin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Not that one",
+    "Name": "Terbish\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An angel",
+    "Name": "Tevy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Powerful",
+    "Name": "Tha\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Change or transfer",
+    "Name": "Thagyamin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Free; Brave; Bold",
+    "Name": "Thai\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who has discreet grace",
+    "Name": "Tham\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A million",
+    "Name": "Than\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Coral",
+    "Name": "Thandar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Victorious one",
+    "Name": "Thang\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sound; Voice; Green; Young",
+    "Name": "Thanh\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Clean",
+    "Name": "Thant\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Courteous; Respectful of parents",
+    "Name": "Thao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Leader; Courageous",
+    "Name": "Tharen\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Burmese word for ten thousand",
+    "Name": "Thaung\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moon",
+    "Name": "Thawda\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Amherstia flower",
+    "Name": "Thawka\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Angelic",
+    "Name": "Theavy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A hundred thousand",
+    "Name": "Thein\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gold",
+    "Name": "Theingi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The sun",
+    "Name": "Therein\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is calm",
+    "Name": "Thet\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A single woman",
+    "Name": "Thi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Divine and goddess-like",
+    "Name": "Thia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Goddess Sita",
+    "Name": "Thida\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is smooth",
+    "Name": "Thien\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Lion",
+    "Name": "Thiha\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A third child; Third generation",
+    "Name": "Thirdy\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Splendor; Good looking",
+    "Name": "Thiri\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "She who has a long life",
+    "Name": "Tho\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is tamed",
+    "Name": "Thuan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "He who is aware",
+    "Name": "Thuc\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "One who loves tenderly",
+    "Name": "Thuong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The Sun",
+    "Name": "Thura\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Knowledge",
+    "Name": "Thuta\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A friendly man",
+    "Name": "Thuy\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "The sun",
+    "Name": "Thuya\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A theory",
+    "Name": "Thuyet\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Angel, angelic",
+    "Name": "Thuza\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Angel; A girl as beautiful and virtuous as an angel",
+    "Name": "Thuzar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "From the land of Eoghan",
+    "Name": "Ti\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "heavenly or celestial",
+    "Name": "Tian\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Daughter",
+    "Name": "Tida\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A fairy",
+    "Name": "Tien\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Fierce and powerful",
+    "Name": "Tiger\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Sun maiden; Flower",
+    "Name": "Tika\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A Saint; A thinker",
+    "Name": "Tin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A transparent person",
+    "Name": "Tohru\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Time, opportunity, period",
+    "Name": "Toki\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "The capital to the east",
+    "Name": "Tokyo\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A wealthy and prosperous person",
+    "Name": "Tomiche\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "One who is wealthy and prosperous",
+    "Name": "Tomiichi\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Intelligence or knowledge of a person",
+    "Name": "Tomo\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Earth",
+    "Name": "Tomoe\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Broad wisdom or knowledge",
+    "Name": "Tomohiro\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A friendly or a knowing child",
+    "Name": "Tomoko\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Iron; Hero or strong",
+    "Name": "Tomorbaatar\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A wise or an intelligent person",
+    "Name": "Tomoya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength, ruler",
+    "Name": "Ton\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Title given to a public officer; Tongue that means a chatterbox",
+    "Name": "Tong\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "To the people; Something to the race",
+    "Name": "Tonica\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Tigress; Thunder",
+    "Name": "Tora\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A vast and huge sea of water",
+    "Name": "Toru\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "An ancient or valued child",
+    "Name": "Toshiko\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A intelligent person",
+    "Name": "Toshiro\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Pathway, exploration, adventure",
+    "Name": "Trail\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Peaceful, calm, serene",
+    "Name": "Tran\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A tide or a small wave",
+    "Name": "Trieu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Buddhist prosperity and auspiciousness",
+    "Name": "Trinley\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Genuine; Real",
+    "Name": "Tru\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Talented; Skillful",
+    "Name": "Tsai\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Long life or blessing",
+    "Name": "Tsering\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Flower",
+    "Name": "Tsetseg\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Flower",
+    "Name": "Tsetsegmaa\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Venus",
+    "Name": "Tsolmon\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Accept or believe",
+    "Name": "Tsubame\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Section; Extension",
+    "Name": "Tsubasa\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Resembles the white moon",
+    "Name": "Tsukiya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Pongee a soft cloth made from threads of silk, Spinning, Request, Beseech",
+    "Name": "Tsumugi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Destructive natural disaster",
+    "Name": "Tsunami\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Stork greeting for a long last life",
+    "Name": "Tsuru\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Person who learns quickly; Intelligent",
+    "Name": "Tu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Succeed",
+    "Name": "Tun\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Fast",
+    "Name": "Turgen\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Ray of light",
+    "Name": "Tuya\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Archangel; Messenger",
+    "Name": "Tuyen\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A girl whose complexion is fair like snowflakes",
+    "Name": "Tuyet\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Smart; Brainy",
+    "Name": "Twan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "A worldly man",
+    "Name": "Ulagan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Artistic decoration",
+    "Name": "Uranchimeg\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A pink flower of the mountain",
+    "Name": "Uuliinyagaantsetseg\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Well-known; Respected leader",
+    "Name": "Vaden\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Graceful or gracious",
+    "Name": "Vann\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Elegant; Strong",
+    "Name": "Ven\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Green",
+    "Name": "Verde\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gentle; Hospitable",
+    "Name": "Vien\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Warrior; Victorious",
+    "Name": "Viet\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Elegant; Sophisticated; Stylish",
+    "Name": "Vincci\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Precious; Priceless",
+    "Name": "Viral\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Clear, Visionary",
+    "Name": "Vu\n"
+  },
+  {
+    "Gender": "Fang\n",
+    "Meaning": "Girl King, monarch; Fagrant, virtuous, and beautiful",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Jing\n",
+    "Meaning": "Girl King, monarch; Quiet, still, gentle, essence, spirit, clear, and crystal",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "lei\n",
+    "Meaning": "Boy King, monarch; Thunder, bud, or pile of stones",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Li\n",
+    "Meaning": "Girl King; Monarch; Beautiful; Reason; Logic; Establish; Black; Dawn",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Wei\n",
+    "Meaning": "Boy King; Monarch; Power; Pomp; High; Extraordinary",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Xiu\n",
+    "Meaning": "Girl King; Monarch; Develop; Luxuriant; Beautiful; Elegant; Outstanding",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Yong\n",
+    "Meaning": "Boy King; Monarch; Brave; Eternal",
+    "Name": "Wang"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "King",
+    "Name": "Wassa\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Power; Pomp",
+    "Name": "Wei\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Holy place; Sanctuary",
+    "Name": "Wihan\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Strong-willed and industrious",
+    "Name": "Wilber\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bright",
+    "Name": "Win\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Joyful, blessed, friend",
+    "Name": "Winn\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligence; Knowledge; Understanding",
+    "Name": "Wisdom\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wister's flower",
+    "Name": "Wisteria\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Wild; Strong; Intelligent hunter",
+    "Name": "Wolf\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "First or leader",
+    "Name": "Won\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "King; Royal",
+    "Name": "Wong\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Tough; Rugged; Adventurous",
+    "Name": "Wrangler\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Awakened to emptiness",
+    "Name": "Wukong\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gold",
+    "Name": "Wunna\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Unique; Mystical; Otherworldly",
+    "Name": "Xael\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Mystical; Nomadic; Fierce",
+    "Name": "Xaela\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A place in China",
+    "Name": "Xanadu\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Elegant; Strong",
+    "Name": "Xelia\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength, dominance, power",
+    "Name": "Xi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Fragrant, auspicious",
+    "Name": "Xiang\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Small, insignificant",
+    "Name": "Xiao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Little clever one; Little quick one",
+    "Name": "Xiaoling\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Responsibility, determination, resilience",
+    "Name": "Xin\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Star or to rise",
+    "Name": "Xing\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Faithful and righteous",
+    "Name": "Xinyi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strong; Fierce; Powerful",
+    "Name": "Xion\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Happy; Joyful",
+    "Name": "Xixi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Life; A surname",
+    "Name": "Xoe\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Spring, bright, mysterious",
+    "Name": "Xuan\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Bright, pure, snow",
+    "Name": "Xue\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "A form of Yadanar; Gem",
+    "Name": "Yadana\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Gem or gemstone",
+    "Name": "Yadanar\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "God is gracious",
+    "Name": "Yahana\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Great harmony",
+    "Name": "Yamato\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Sun; Brightness",
+    "Name": "Yang\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Desire; Ambition",
+    "Name": "Yao\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "King",
+    "Name": "Yarzar\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Precious or valuable",
+    "Name": "Yatzel\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "King",
+    "Name": "Yaza\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Harmony; Justice",
+    "Name": "Yee\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Renewal, grace, peace",
+    "Name": "Yen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Affirmation; Agreement; Acceptance",
+    "Name": "Yes\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Wisdom",
+    "Name": "Yeshe\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Goddess of peace",
+    "Name": "Yeshi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Abominable snowman",
+    "Name": "Yeti\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "exceptional, talented, or number one",
+    "Name": "Yi\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Brave or heroic",
+    "Name": "Ying\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Casual greeting; Exclamation",
+    "Name": "Yo\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Perpetual, eternal",
+    "Name": "Yong\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Knowledge",
+    "Name": "Yonten\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Independent; Creative",
+    "Name": "You\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Great sunlight",
+    "Name": "Youta\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "the beginning or original",
+    "Name": "Yuan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Jewel; Precious",
+    "Name": "Yubin\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Moon; Joy",
+    "Name": "Yue\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Abundance or precious treasure",
+    "Name": "Yujin\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "From the far horizon",
+    "Name": "Yul\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Cloud",
+    "Name": "Yun\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Lily; Light",
+    "Name": "Yuri\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Brave or courageous warrior",
+    "Name": "Yuta\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Excellence; Superiority; Gentleness; Brave",
+    "Name": "Yuu\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gentle; Truthful; Honest",
+    "Name": "Yuuma\n"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Gentleness; Tender person",
+    "Name": "Yuuto\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Supreme; Courageous warrior",
+    "Name": "Yuya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Jade eye; Beautiful jade",
+    "Name": "Yuyan\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Orange jasmine",
+    "Name": "Yuzana\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Exotic; Unique; Mysterious",
+    "Name": "Zamia\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "Lace",
+    "Name": "Zar\n"
+  },
+  {
+    "Gender": "Girl",
+    "Meaning": "One blessed with inner and outer beauty",
+    "Name": "Zarni\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Saint; Practitioner; Yoga",
+    "Name": "Zaw\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "A school of Buddhism emphasizing meditation and intuition",
+    "Name": "Zen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Zen master",
+    "Name": "Zenji\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Gift of God; Peaceful",
+    "Name": "Zenni\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Success",
+    "Name": "Zeya\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Success",
+    "Name": "Zeyar\n"
+  },
+  {
+    "Gender": "Li\n",
+    "Meaning": "Girl Stretch; Extend; Archer; Beautiful; Reason; Logic; Establish; Black; Dawn",
+    "Name": "Zhang"
+  },
+  {
+    "Gender": "Min\n",
+    "Meaning": "Girl Stretch; Extend; Archer; Quick; Clever; Sharp",
+    "Name": "Zhang"
+  },
+  {
+    "Gender": "Wei\n",
+    "Meaning": "Boy Stretch; Extend; Archer; Power; Pomp; High; Extraordinary",
+    "Name": "Zhang"
+  },
+  {
+    "Gender": "Xiu\n",
+    "Meaning": "Girl Stretch; Extend; Develop; Luxuriant; Beautiful; Elegant; Outstanding",
+    "Name": "Zhang"
+  },
+  {
+    "Gender": "Yong\n",
+    "Meaning": "Boy Stretch; Extend; Archer; Brave; Eternal",
+    "Name": "Zhang"
+  },
+  {
+    "Gender": "Boy",
+    "Meaning": "Truth; Genuine",
+    "Name": "Zhen\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Strength; Upright; Conqueror",
+    "Name": "Zheng\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligence, wisdom, knowledge",
+    "Name": "Zhi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Purple; Violet",
+    "Name": "Zi\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Intelligent, accomplished, determined",
+    "Name": "Zihao\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Two",
+    "Name": "Zwei\n"
+  },
+  {
+    "Gender": "Unisex",
+    "Meaning": "Unique; Modern; Strong",
+    "Name": "Zyden\n"
+  }
+]

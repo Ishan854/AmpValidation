@@ -121,7 +121,7 @@ public class SegregateFiles {
 
     @Test(priority = 1)
     public void createFileForMuslim() {
-        segregateFiles("uniqueNames.json");
+        segregateFiles("uniqueNamesTest.json");
     }
 
     private void segregateFiles(String sourceFilePath) {

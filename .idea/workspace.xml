@@ -5,34 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BabyNamesSikh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/g.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/h.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/i.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/j.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/j.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/k.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/l.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/m.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/n.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/o.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/p.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/q.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/q.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/r.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/r.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/s.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/t.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/u.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/u.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/v.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/w.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/x.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/y.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/y.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/z.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/å.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/å.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babyNamesChristian.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesChristian.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babyNamesChristianTwo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddReligion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddReligion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BabyNamesChristian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BabyNamesChristian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/a.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +48,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/BabyNames/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   }
 }</component>
@@ -81,41 +65,7 @@
       <recent name="F:\BabyNames\src\test\resources\SegregateMuslim" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SegregateFiles">
-    <configuration name="AddReligion" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddReligion" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompareData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompareData" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompareData.compareData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompareData" />
-      <option name="METHOD_NAME" value="compareData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TitleAndResponse">
     <configuration name="SegregateFiles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,10 +77,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPriority" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learnTestNgAnnotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="learnTestNgAnnotations" />
+      <option name="MAIN_CLASS_NAME" value="learnTestNgAnnotations.TestPriority" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleAndResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="titleandresponse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="titleandresponse" />
+      <option name="MAIN_CLASS_NAME" value="titleandresponse.TitleAndResponse" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleAndResponse.hitWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="titleandresponse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="titleandresponse" />
+      <option name="MAIN_CLASS_NAME" value="titleandresponse.TitleAndResponse" />
+      <option name="METHOD_NAME" value="hitWebsite" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueNamesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UniqueNames" />
+      <option name="MAIN_CLASS_NAME" value="UniqueNamesTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TitleAndResponse" />
+        <item itemvalue="TestNG.TitleAndResponse.hitWebsite" />
+        <item itemvalue="TestNG.TestPriority" />
         <item itemvalue="TestNG.SegregateFiles" />
-        <item itemvalue="TestNG.UniqueNames" />
-        <item itemvalue="TestNG.CompareData.compareData" />
-        <item itemvalue="TestNG.CompareData" />
-        <item itemvalue="TestNG.AddReligion" />
+        <item itemvalue="TestNG.UniqueNamesTest" />
       </list>
     </recent_temporary>
   </component>
