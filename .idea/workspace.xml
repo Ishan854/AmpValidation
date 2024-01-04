@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BabyNamesSikh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babyNamesChristian.json" beforeDir="false" afterPath="$PROJECT_DIR$/babyNamesChristian.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babyNamesChristianTwo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent-report_Desktop.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-report_Desktop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent-report_Mweb.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-report_Mweb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddReligion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddReligion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BabyNamesChristian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BabyNamesChristian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SegregateFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SegregatedUniqueNames/a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/titleandresponse/TitleAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/titleandresponse/TitleAndResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,11 +61,17 @@
       <recent name="F:\BabyNames\src\test\resources\SegregateMuslim" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TitleAndResponse">
-    <configuration name="SegregateFiles" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.VideosAmp">
+    <configuration name="ArticleAmp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SegregateFiles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UrlAmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UrlAmp" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.ArticleAmp" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,51 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPriority" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MoviesAmp.ampValidator" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learnTestNgAnnotations.*" />
+          <option name="PATTERN" value="UrlAmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="learnTestNgAnnotations" />
-      <option name="MAIN_CLASS_NAME" value="learnTestNgAnnotations.TestPriority" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TitleAndResponse" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="titleandresponse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="titleandresponse" />
-      <option name="MAIN_CLASS_NAME" value="titleandresponse.TitleAndResponse" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TitleAndResponse.hitWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="titleandresponse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="titleandresponse" />
-      <option name="MAIN_CLASS_NAME" value="titleandresponse.TitleAndResponse" />
-      <option name="METHOD_NAME" value="hitWebsite" />
+      <option name="PACKAGE_NAME" value="UrlAmp" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.MoviesAmp" />
+      <option name="METHOD_NAME" value="ampValidator" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,10 +97,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNamesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TimesPhoto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UniqueNamesTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UrlAmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UrlAmp" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.TimesPhoto" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimesReviews" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UrlAmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UrlAmp" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.TimesReviews" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosAmp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UrlAmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UrlAmp" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.VideosAmp" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TitleAndResponse" />
-        <item itemvalue="TestNG.TitleAndResponse.hitWebsite" />
-        <item itemvalue="TestNG.TestPriority" />
-        <item itemvalue="TestNG.SegregateFiles" />
-        <item itemvalue="TestNG.UniqueNamesTest" />
+        <item itemvalue="TestNG.VideosAmp" />
+        <item itemvalue="TestNG.MoviesAmp.ampValidator" />
+        <item itemvalue="TestNG.TimesPhoto" />
+        <item itemvalue="TestNG.ArticleAmp" />
+        <item itemvalue="TestNG.TimesReviews" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +176,25 @@
           <url>file://$PROJECT_DIR$/src/test/java/CompareData.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scrollandcollect/BrowserMob.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../NetworkLog/src/test/java/com/networklog/TestNetworkLog.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java</url>
+          <line>43</line>
+          <properties class="UrlAmp.VideosAmp" method="ampValidator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

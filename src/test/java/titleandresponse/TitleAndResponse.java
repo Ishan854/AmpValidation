@@ -17,6 +17,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class TitleAndResponse {
     private WebDriver driver;
@@ -26,16 +27,16 @@ public class TitleAndResponse {
     @BeforeMethod
     void setUp() {
         WebDriverManager.chromedriver().setup();
-        Map<String, String> mobileEmulation = new HashMap<>();
-        mobileEmulation.put("deviceName", "Galaxy S5");
-
-        ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("mobileEmulation", mobileEmulation);
-        driver = new ChromeDriver(options);
+//        Map<String, String> mobileEmulation = new HashMap<>();
+//        mobileEmulation.put("deviceName", "Galaxy S5");
+//
+//        ChromeOptions options = new ChromeOptions();
+//        options.setExperimentalOption("mobileEmulation", mobileEmulation);
+        driver = new ChromeDriver();
 
         driver.manage().window().maximize();
         extent = new ExtentReports();
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report_Mweb.html");
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report_Desktop.html");
         extent.attachReporter(htmlReporter);
     }
 
@@ -46,7 +47,7 @@ public class TitleAndResponse {
 
             for (int i = 1; i <= 100; i++) {
                 driver.get("https://www.timesnownews.com/sports/cricket/ipl-2024-auction-full-list-of-333-players-going-under-the-hammer-set-list-base-price-article-106087484");
-
+                driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
                 String pageTitle = driver.getTitle();
                 HttpURLConnection connection =
                         (HttpURLConnection) new URL("https://www.timesnownews.com/sports/cricket/ipl-2024-auction-full-list-of-333-players-going-under-the-hammer-set-list-base-price-article-106087484")
@@ -61,14 +62,7 @@ public class TitleAndResponse {
 
                 System.out.println("Current Title: " + pageTitle);
 
-                // Assertion for the title
                 Assert.assertEquals(pageTitle, "IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Sold, Unsold, Set List, Base Price | Cricket News, Times Now");
-                // Additional logs for pass or fail
-                if (pageTitle.trim().contains("IPL 2024 Auction: Full List Of 333 Players Going Under The Hammer, Set List, Base Price | Cricket News, Times Now")) {
-                    test.log(Status.PASS, "Test passed for iteration " + i);
-                } else {
-                    test.log(Status.FAIL, "Test failed for iteration " + i);
-                }
             }
         } catch (Exception e) {
             e.printStackTrace();

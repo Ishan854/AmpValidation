@@ -1,0 +1,280 @@
+{
+  "header": {
+    "potime": 450,
+    "st": 1704352034040,
+    "et": 1704352034490
+  },
+  "response": {
+    "data": [
+      {
+        "msid": 2147478103,
+        "parentid": 0,
+        "hostid": 371,
+        "cmstype": "CHANNEL",
+        "status": "ACTIVE",
+        "title": "Zoom Hindi",
+        "updatedate": 1658428200000,
+        "children": [
+          {
+            "msid": 100416356,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "फोटो",
+            "seopath": "photos",
+            "thumbsize": 0,
+            "insertdate": 1684745490158,
+            "updatedate": 1684745490158
+          },
+          {
+            "msid": 98931190,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "लाइफस्टाइल",
+            "seopath": "lifestyle",
+            "thumbsize": 0,
+            "insertdate": 1679546559612,
+            "updatedate": 1679546559612
+          },
+          {
+            "msid": 97972191,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "शॉर्ट वीडियो",
+            "seopath": "short-videos",
+            "thumbsize": 0,
+            "insertdate": 1676531656499,
+            "updatedate": 1678095281495
+          },
+          {
+            "msid": 93355022,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "DEFINITIONCONTAINER",
+            "status": "ACTIVE",
+            "title": "Topic",
+            "seopath": "topic",
+            "thumbsize": 0,
+            "insertdate": 1659633583096,
+            "updatedate": 1659633583096
+          },
+          {
+            "msid": 93179931,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "बॉलीवुड न्यूज",
+            "seopath": "bollywood-news",
+            "thumbsize": 0,
+            "insertdate": 1658989884952,
+            "updatedate": 1658989884952
+          },
+          {
+            "msid": 93179903,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "टेली टॉक",
+            "seopath": "tv-news",
+            "thumbsize": 0,
+            "insertdate": 1658989823920,
+            "updatedate": 1679475323172
+          },
+          {
+            "msid": 93179872,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "साउथ मूवीज",
+            "seopath": "south-movies",
+            "thumbsize": 0,
+            "insertdate": 1658989768707,
+            "updatedate": 1658989768707
+          },
+          {
+            "msid": 93179833,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "वेब स्टोरी",
+            "seopath": "web-stories",
+            "thumbsize": 0,
+            "insertdate": 1658989695144,
+            "updatedate": 1658989695144,
+            "children": [
+              {
+                "msid": 98931220,
+                "parentid": 93179833,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "लाइफस्टाइल",
+                "seopath": "web-stories/lifestyle",
+                "thumbsize": 0,
+                "insertdate": 1679546623605,
+                "updatedate": 1679546623605
+              },
+              {
+                "msid": 93444986,
+                "parentid": 93179833,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "सेलेब्स",
+                "seopath": "web-stories/celebrity",
+                "thumbsize": 0,
+                "insertdate": 1660020595184,
+                "updatedate": 1661946894930
+              },
+              {
+                "msid": 93444887,
+                "parentid": 93179833,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "एंटरटेनमेंट न्यूज",
+                "seopath": "web-stories/entertainment-news",
+                "thumbsize": 0,
+                "insertdate": 1660020321125,
+                "updatedate": 1660023351531
+              }
+            ],
+            "childcount": 0
+          },
+          {
+            "msid": 93179797,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "ओटीटी",
+            "seopath": "web-series",
+            "thumbsize": 0,
+            "insertdate": 1658989627817,
+            "updatedate": 1658989627817
+          },
+          {
+            "msid": 93179762,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "भोजपुरी",
+            "seopath": "bhojpuri-news",
+            "thumbsize": 0,
+            "insertdate": 1658989556671,
+            "updatedate": 1658989556671
+          },
+          {
+            "msid": 93179602,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "हॉलीवुड न्यूज",
+            "seopath": "hollywood-news",
+            "thumbsize": 0,
+            "insertdate": 1658989262336,
+            "updatedate": 1658989262336
+          },
+          {
+            "msid": 93179565,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "वीडियो",
+            "seopath": "videos",
+            "thumbsize": 0,
+            "insertdate": 1658989152642,
+            "updatedate": 1658989152642,
+            "children": [
+              {
+                "msid": 94983882,
+                "parentid": 93179565,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "ट्रेलर्स और प्रोमोज",
+                "seopath": "videos/trailers-promos",
+                "thumbsize": 0,
+                "insertdate": 1666253312480,
+                "updatedate": 1666253312480
+              },
+              {
+                "msid": 94983768,
+                "parentid": 93179565,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "सोंग्स",
+                "seopath": "videos/songs",
+                "thumbsize": 0,
+                "insertdate": 1666253018282,
+                "updatedate": 1666253018282
+              },
+              {
+                "msid": 93364649,
+                "parentid": 93179565,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "टेली टॉक",
+                "seopath": "videos/telly-talk",
+                "thumbsize": 0,
+                "insertdate": 1659681219164,
+                "updatedate": 1659681219164
+              },
+              {
+                "msid": 93364623,
+                "parentid": 93179565,
+                "hostid": 371,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "न्यूज",
+                "seopath": "videos/news",
+                "thumbsize": 0,
+                "insertdate": 1659681164191,
+                "updatedate": 1659681164191
+              }
+            ],
+            "childcount": 0
+          },
+          {
+            "msid": 93179508,
+            "parentid": 2147478103,
+            "hostid": 371,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "मूवी रिव्यू",
+            "seopath": "reviews",
+            "thumbsize": 0,
+            "insertdate": 1658989004552,
+            "updatedate": 1658989116860
+          }
+        ],
+        "childcount": 0
+      }
+    ],
+    "params": {
+      "pageno": 1,
+      "perpage": 100,
+      "sortby": "RANK",
+      "sortorder": "DSC",
+      "depth": 4,
+      "msid": [
+        2147478103
+      ],
+      "hostid": "371"
+    }
+  }
+}

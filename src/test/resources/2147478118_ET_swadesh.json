@@ -1,0 +1,166 @@
+{
+  "header": {
+    "potime": 2,
+    "st": 1704347723701,
+    "et": 1704347723703
+  },
+  "response": {
+    "data": [
+      {
+        "msid": 2147478118,
+        "parentid": 0,
+        "hostid": 386,
+        "cmstype": "CHANNEL",
+        "status": "ACTIVE",
+        "title": "ETNOWSWADESH",
+        "updatedate": 1667500200000,
+        "children": [
+          {
+            "msid": 106317136,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "टेक्नोलॉजी",
+            "seopath": "technology",
+            "thumbsize": 0,
+            "insertdate": 1703666265718,
+            "updatedate": 1703666265718
+          },
+          {
+            "msid": 106127271,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "बजट",
+            "seopath": "budget",
+            "thumbsize": 0,
+            "insertdate": 1702988230014,
+            "updatedate": 1702988230014
+          },
+          {
+            "msid": 103301611,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "इकोनॉमी",
+            "seopath": "economy",
+            "thumbsize": 0,
+            "insertdate": 1693632586852,
+            "updatedate": 1693632586852
+          },
+          {
+            "msid": 100530123,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "स्वदेश Shorts",
+            "seopath": "short-videos",
+            "thumbsize": 0,
+            "insertdate": 1685101803235,
+            "updatedate": 1685101803235
+          },
+          {
+            "msid": 100320191,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "ऑटो",
+            "seopath": "auto",
+            "thumbsize": 0,
+            "insertdate": 1684387584563,
+            "updatedate": 1684387584563
+          },
+          {
+            "msid": 100320176,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "वीडियो",
+            "seopath": "videos",
+            "thumbsize": 0,
+            "insertdate": 1684387550951,
+            "updatedate": 1684387550951
+          },
+          {
+            "msid": 100320144,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "कॉरपोरेट",
+            "seopath": "companies",
+            "thumbsize": 0,
+            "insertdate": 1684387499504,
+            "updatedate": 1684387499504
+          },
+          {
+            "msid": 100320112,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "वेब स्टोरी",
+            "seopath": "web-stories",
+            "thumbsize": 0,
+            "insertdate": 1684387455815,
+            "updatedate": 1684387455815
+          },
+          {
+            "msid": 100320101,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "मार्केट",
+            "seopath": "markets",
+            "thumbsize": 0,
+            "insertdate": 1684387427310,
+            "updatedate": 1684387427310
+          },
+          {
+            "msid": 100320082,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "मनी",
+            "seopath": "personal-finance",
+            "thumbsize": 0,
+            "insertdate": 1684387350694,
+            "updatedate": 1684387370268
+          },
+          {
+            "msid": 100320070,
+            "parentid": 2147478118,
+            "hostid": 386,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "न्यूज",
+            "seopath": "news",
+            "thumbsize": 0,
+            "insertdate": 1684387318689,
+            "updatedate": 1684387318689
+          }
+        ],
+        "childcount": 0
+      }
+    ],
+    "params": {
+      "pageno": 1,
+      "perpage": 100,
+      "sortby": "RANK",
+      "sortorder": "DSC",
+      "depth": 4,
+      "msid": [
+        2147478118
+      ],
+      "hostid": "386"
+    }
+  }
+}

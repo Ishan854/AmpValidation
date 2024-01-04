@@ -1,0 +1,351 @@
+{
+  "header": {
+    "potime": 798,
+    "st": 1704352000476,
+    "et": 1704352001274
+  },
+  "response": {
+    "data": [
+      {
+        "msid": 2147478083,
+        "parentid": 0,
+        "hostid": 351,
+        "cmstype": "CHANNEL",
+        "status": "ACTIVE",
+        "title": "TIMESNOWMARATHI",
+        "children": [
+          {
+            "msid": 105635302,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "करिअर",
+            "seopath": "career",
+            "thumbsize": 0,
+            "insertdate": 1701364788829,
+            "updatedate": 1701364788829
+          },
+          {
+            "msid": 99575094,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "टेक्नॉलॉजी",
+            "seopath": "technology",
+            "thumbsize": 0,
+            "insertdate": 1681793488000,
+            "updatedate": 1681907797756
+          },
+          {
+            "msid": 95734424,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "लाईफस्टाईल",
+            "seopath": "lifestyle",
+            "thumbsize": 0,
+            "insertdate": 1669274569833,
+            "updatedate": 1681882097482
+          },
+          {
+            "msid": 99457384,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "विश्व",
+            "seopath": "world",
+            "thumbsize": 0,
+            "insertdate": 1681370705448,
+            "updatedate": 1681882144220
+          },
+          {
+            "msid": 95738715,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "बिझनेस",
+            "seopath": "business",
+            "thumbsize": 0,
+            "insertdate": 1669284767653,
+            "updatedate": 1681882022950
+          },
+          {
+            "msid": 95734635,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "महाराष्ट्र",
+            "seopath": "maharashtra",
+            "thumbsize": 0,
+            "insertdate": 1669275129922,
+            "updatedate": 1700806137442
+          },
+          {
+            "msid": 95734487,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "व्हिडिओ",
+            "seopath": "videos",
+            "thumbsize": 0,
+            "insertdate": 1669274719326,
+            "updatedate": 1669282414877
+          },
+          {
+            "msid": 95734461,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "निवडणूक",
+            "seopath": "elections",
+            "thumbsize": 0,
+            "insertdate": 1669274662182,
+            "updatedate": 1669282473891,
+            "children": [
+              {
+                "msid": 95734620,
+                "parentid": 95734461,
+                "hostid": 351,
+                "cmstype": "DEFINITIONCONTAINER",
+                "status": "ACTIVE",
+                "title": "Topic",
+                "seopath": "elections/topic",
+                "thumbsize": 0,
+                "insertdate": 1669275095557,
+                "updatedate": 1669275095557
+              }
+            ],
+            "childcount": 0
+          },
+          {
+            "msid": 95734319,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "देश",
+            "seopath": "india",
+            "thumbsize": 0,
+            "insertdate": 1669274399795,
+            "updatedate": 1681370659046
+          },
+          {
+            "msid": 95734296,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "धर्म कर्म भविष्य",
+            "seopath": "spirituality",
+            "thumbsize": 0,
+            "insertdate": 1669274332377,
+            "updatedate": 1669283115808
+          },
+          {
+            "msid": 95734266,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "क्रीडा",
+            "seopath": "sports",
+            "thumbsize": 0,
+            "insertdate": 1669274271973,
+            "updatedate": 1669274271973
+          },
+          {
+            "msid": 95734158,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "व्हायरल",
+            "seopath": "viral",
+            "thumbsize": 0,
+            "insertdate": 1669274074651,
+            "updatedate": 1681881938691
+          },
+          {
+            "msid": 95734132,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "मनोरंजन",
+            "seopath": "entertainment",
+            "thumbsize": 0,
+            "insertdate": 1669274034815,
+            "updatedate": 1700806218470
+          },
+          {
+            "msid": 95734108,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "आरोग्य",
+            "seopath": "health",
+            "thumbsize": 0,
+            "insertdate": 1669273980508,
+            "updatedate": 1681881974588
+          },
+          {
+            "msid": 88386175,
+            "parentid": 2147478083,
+            "hostid": 351,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "वेब स्टोरीज",
+            "seopath": "web-stories",
+            "thumbsize": 0,
+            "insertdate": 1639983835742,
+            "updatedate": 1676448561697,
+            "children": [
+              {
+                "msid": 105819572,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "टेक्नॉलॉजी",
+                "seopath": "web-stories/technology",
+                "thumbsize": 0,
+                "insertdate": 1701966995651,
+                "updatedate": 1701966995651
+              },
+              {
+                "msid": 105819523,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "धर्म कर्म भविष्य",
+                "seopath": "web-stories/spirituality",
+                "thumbsize": 0,
+                "insertdate": 1701966747138,
+                "updatedate": 1701966747138
+              },
+              {
+                "msid": 105635340,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "पर्यटन",
+                "seopath": "web-stories/travel",
+                "thumbsize": 0,
+                "insertdate": 1701364878066,
+                "updatedate": 1701364878066
+              },
+              {
+                "msid": 104653550,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "वेलनेस",
+                "seopath": "web-stories/wellness",
+                "thumbsize": 0,
+                "insertdate": 1698063536796,
+                "updatedate": 1698071204416
+              },
+              {
+                "msid": 104334365,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "व्हायरल",
+                "seopath": "web-stories/viral",
+                "thumbsize": 0,
+                "insertdate": 1697005454409,
+                "updatedate": 1697005454409
+              },
+              {
+                "msid": 88386227,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "मनोरंजन",
+                "seopath": "web-stories/entertainment",
+                "thumbsize": 0,
+                "insertdate": 1639983954669,
+                "updatedate": 1681106233761
+              },
+              {
+                "msid": 88386307,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "आरोग्य",
+                "seopath": "web-stories/health",
+                "thumbsize": 0,
+                "insertdate": 1639984129688,
+                "updatedate": 1681106352048
+              },
+              {
+                "msid": 88386288,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "लाईफस्टाईल",
+                "seopath": "web-stories/lifestyle",
+                "thumbsize": 0,
+                "insertdate": 1639984083198,
+                "updatedate": 1681907970656
+              },
+              {
+                "msid": 88386261,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "क्रीडा",
+                "seopath": "web-stories/sports",
+                "thumbsize": 0,
+                "insertdate": 1639984022531,
+                "updatedate": 1681106481648
+              },
+              {
+                "msid": 88386329,
+                "parentid": 88386175,
+                "hostid": 351,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "महाराष्ट्र ते जग",
+                "seopath": "web-stories/maharashtra-to-world",
+                "thumbsize": 0,
+                "insertdate": 1639984207736,
+                "updatedate": 1681106614181
+              }
+            ],
+            "childcount": 0
+          }
+        ],
+        "childcount": 0
+      }
+    ],
+    "params": {
+      "pageno": 1,
+      "perpage": 100,
+      "sortby": "RANK",
+      "sortorder": "DSC",
+      "depth": 4,
+      "msid": [
+        2147478083
+      ],
+      "hostid": "351"
+    }
+  }
+}

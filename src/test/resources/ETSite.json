@@ -1,0 +1,280 @@
+{
+  "header": {
+    "potime": 340,
+    "st": 1704346984722,
+    "et": 1704346985062
+  },
+  "response": {
+    "data": [
+      {
+        "msid": 2147478114,
+        "parentid": 0,
+        "hostid": 382,
+        "cmstype": "CHANNEL",
+        "status": "ACTIVE",
+        "title": "ETNOW",
+        "updatedate": 1668364200000,
+        "children": [
+          {
+            "msid": 106317248,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Infrastructure",
+            "seopath": "infrastructure",
+            "thumbsize": 0,
+            "insertdate": 1703666422859,
+            "updatedate": 1703666422859
+          },
+          {
+            "msid": 105406950,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Brand Stories",
+            "seopath": "brand-stories",
+            "thumbsize": 0,
+            "insertdate": 1700634838077,
+            "updatedate": 1700634838077
+          },
+          {
+            "msid": 103301576,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Economy",
+            "seopath": "economy",
+            "thumbsize": 0,
+            "insertdate": 1693632450439,
+            "updatedate": 1693632450439
+          },
+          {
+            "msid": 97083237,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Auto",
+            "seopath": "auto",
+            "thumbsize": 0,
+            "insertdate": 1674026321485,
+            "updatedate": 1674026321485
+          },
+          {
+            "msid": 97083226,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Technology",
+            "seopath": "technology",
+            "thumbsize": 0,
+            "insertdate": 1674026290864,
+            "updatedate": 1674026290864
+          },
+          {
+            "msid": 96962829,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Budget 2024",
+            "seopath": "budget",
+            "thumbsize": 0,
+            "insertdate": 1673599810885,
+            "updatedate": 1702994034877
+          },
+          {
+            "msid": 96861191,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Short videos",
+            "seopath": "short-videos",
+            "thumbsize": 0,
+            "insertdate": 1673277219975,
+            "updatedate": 1673277553147
+          },
+          {
+            "msid": 96738354,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Web Stories",
+            "seopath": "web-stories",
+            "thumbsize": 0,
+            "insertdate": 1672831684364,
+            "updatedate": 1672831684364
+          },
+          {
+            "msid": 95550377,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "News",
+            "seopath": "news",
+            "thumbsize": 0,
+            "insertdate": 1668581395495,
+            "updatedate": 1668581395495
+          },
+          {
+            "msid": 95550364,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Videos",
+            "seopath": "videos",
+            "thumbsize": 0,
+            "insertdate": 1668581369904,
+            "updatedate": 1668581369904,
+            "children": [
+              {
+                "msid": 96861205,
+                "parentid": 95550364,
+                "hostid": 382,
+                "cmstype": "SECTION",
+                "status": "ACTIVE",
+                "title": "shows",
+                "seopath": "videos/shows",
+                "thumbsize": 0,
+                "insertdate": 1673277297446,
+                "updatedate": 1673277297446,
+                "children": [
+                  {
+                    "msid": 96861296,
+                    "parentid": 96861205,
+                    "hostid": 382,
+                    "cmstype": "SECTION",
+                    "status": "ACTIVE",
+                    "title": "ET NOW Closing Trades",
+                    "seopath": "videos/shows/et-now-closing-trades",
+                    "thumbsize": 0,
+                    "insertdate": 1673277479294,
+                    "updatedate": 1674124264206
+                  },
+                  {
+                    "msid": 96861289,
+                    "parentid": 96861205,
+                    "hostid": 382,
+                    "cmstype": "SECTION",
+                    "status": "ACTIVE",
+                    "title": "Startup central",
+                    "seopath": "videos/shows/startup-central",
+                    "thumbsize": 0,
+                    "insertdate": 1673277434829,
+                    "updatedate": 1674122795355
+                  },
+                  {
+                    "msid": 96861250,
+                    "parentid": 96861205,
+                    "hostid": 382,
+                    "cmstype": "SECTION",
+                    "status": "ACTIVE",
+                    "title": "The ET Money show",
+                    "seopath": "videos/shows/the-et-money-show",
+                    "thumbsize": 0,
+                    "insertdate": 1673277364582,
+                    "updatedate": 1674122766145
+                  }
+                ],
+                "childcount": 0
+              }
+            ],
+            "childcount": 0
+          },
+          {
+            "msid": 95550354,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Markets",
+            "seopath": "markets",
+            "thumbsize": 0,
+            "insertdate": 1668581343298,
+            "updatedate": 1668581343298
+          },
+          {
+            "msid": 95550340,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Personal Finance",
+            "seopath": "personal-finance",
+            "thumbsize": 0,
+            "insertdate": 1668581309180,
+            "updatedate": 1668581309180
+          },
+          {
+            "msid": 95550325,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Companies",
+            "seopath": "companies",
+            "thumbsize": 0,
+            "insertdate": 1668581279954,
+            "updatedate": 1668581279954
+          },
+          {
+            "msid": 95550314,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Exams & Results",
+            "seopath": "exams-results",
+            "thumbsize": 0,
+            "insertdate": 1668581239620,
+            "updatedate": 1673336285382
+          },
+          {
+            "msid": 95550304,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "SECTION",
+            "status": "ACTIVE",
+            "title": "Cryptocurrency",
+            "seopath": "cryptocurrency",
+            "thumbsize": 0,
+            "insertdate": 1668581196257,
+            "updatedate": 1668581196257
+          },
+          {
+            "msid": 95658460,
+            "parentid": 2147478114,
+            "hostid": 382,
+            "cmstype": "DEFINITIONCONTAINER",
+            "status": "ACTIVE",
+            "title": "Topic",
+            "seopath": "topic",
+            "thumbsize": 0,
+            "insertdate": 1669022897049,
+            "updatedate": 1669022897049
+          }
+        ],
+        "childcount": 0
+      }
+    ],
+    "params": {
+      "pageno": 1,
+      "perpage": 100,
+      "sortby": "RANK",
+      "sortorder": "DSC",
+      "depth": 4,
+      "msid": [
+        2147478114
+      ],
+      "hostid": "382"
+    }
+  }
+}
