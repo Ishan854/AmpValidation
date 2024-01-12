@@ -44,20 +44,19 @@ public class TimesReviews {
             String siteLink = "https://www.timesnownews.com/entertainment-news/reviews";
             driver.get(siteLink);
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(0));
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class='undefined _2IrV']")));
 
             List<WebElement> links = driver.findElements(By.cssSelector("div[class='undefined _2IrV'] a"));
 
             for (int i = 0; i < links.size(); i++) {
-                // Re-locate the element to avoid StaleElementReferenceException
-                WebElement link = driver.findElements(By.cssSelector("div[class='undefined _2IrV] a")).get(i);
+                WebElement link = driver.findElements(By.cssSelector("div[class='undefined _2IrV'] a")).get(i);
 
                 String url = link.getAttribute("href");
+                String updateUrl = url + "/amp";
+                System.out.println(updateUrl);
 
-                System.out.println(url);
-
-                ((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", url);
+                ((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", updateUrl);
                 String originalWindowHandle = driver.getWindowHandle();
                 for (String windowHandle : driver.getWindowHandles()) {
                     if (!windowHandle.equals(originalWindowHandle)) {
@@ -73,19 +72,12 @@ public class TimesReviews {
                         robot.keyRelease(KeyEvent.VK_SHIFT);
                         robot.keyRelease(KeyEvent.VK_CONTROL);
                         Thread.sleep(5000);
-                        robot.keyPress(KeyEvent.VK_CONTROL);
-                        robot.keyPress(KeyEvent.VK_SHIFT);
-                        robot.keyPress(KeyEvent.VK_R);
-                        robot.keyRelease(KeyEvent.VK_R);
-                        robot.keyRelease(KeyEvent.VK_SHIFT);
-                        robot.keyRelease(KeyEvent.VK_CONTROL);
-                        Thread.sleep(5000);
+
                         robot.keyPress(KeyEvent.VK_CONTROL);
                         robot.keyPress(KeyEvent.VK_U);
                         robot.keyRelease(KeyEvent.VK_U);
                         robot.keyRelease(KeyEvent.VK_CONTROL);
                         Thread.sleep(5000);
-
                         String pageTitle = driver.getTitle();
                         wait.until(ExpectedConditions.titleContains(pageTitle));
                         break;
@@ -101,7 +93,6 @@ public class TimesReviews {
             e.printStackTrace();
         }
     }
-
 
     @AfterMethod
             void tearDown(){

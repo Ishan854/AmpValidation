@@ -40,23 +40,23 @@ public class VideosAmp {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
     }
+
     @Test
     void ampValidator() throws TimeoutException {
         try {
             String siteLink = "https://www.timesnownews.com/videos";
             driver.get(siteLink);
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[class='_1YzI']")));
 
             List<WebElement> links = driver.findElements(By.cssSelector("a[class='_1YzI']"));
 
             for (int i = 0; i < links.size(); i++) {
-                // Re-locate the element to avoid StaleElementReferenceException
                 WebElement link = driver.findElements(By.cssSelector("a[class='_1YzI']")).get(i);
 
                 String url = link.getAttribute("href");
-                String  updatedUrl  = url + "/amp";
+                String updatedUrl = url + "/amp";
                 System.out.println(updatedUrl);
 
                 ((JavascriptExecutor) driver).executeScript("window.open(arguments[0])", updatedUrl);
@@ -81,12 +81,12 @@ public class VideosAmp {
                         robot.keyRelease(KeyEvent.VK_U);
                         robot.keyRelease(KeyEvent.VK_CONTROL);
                         Thread.sleep(5000);
-
                         String pageTitle = driver.getTitle();
                         wait.until(ExpectedConditions.titleContains(pageTitle));
                         break;
                     }
                 }
+                Thread.sleep(5000);
                 driver.close();
                 driver.switchTo().window(originalWindowHandle);
             }
@@ -99,7 +99,7 @@ public class VideosAmp {
 
 
     @AfterMethod
-    void tearDown(){
+    void tearDown() {
         driver.close();
         driver.quit();
     }

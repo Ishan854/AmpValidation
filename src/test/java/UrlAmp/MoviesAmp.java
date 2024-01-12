@@ -51,7 +51,6 @@ public class MoviesAmp {
             List<WebElement> links = driver.findElements(By.cssSelector("div[class='undefined _2IrV'] a"));
 
             for (int i = 0; i < links.size(); i++) {
-                // Re-locate the element to avoid StaleElementReferenceException
                 WebElement link = driver.findElements(By.cssSelector("div[class='undefined _2IrV'] a")).get(i);
 
                 String url = link.getAttribute("href");
@@ -86,6 +85,7 @@ public class MoviesAmp {
                         break;
                     }
                 }
+                Thread.sleep(5000);
                 driver.close();
                 driver.switchTo().window(originalWindowHandle);
             }

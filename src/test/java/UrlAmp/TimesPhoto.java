@@ -42,7 +42,7 @@ public class TimesPhoto {
             String siteLink = "https://www.timesnownews.com/photos";
             driver.get(siteLink);
 
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("figure[class='_3PYj _36VC _1BKw']")));
 
             List<WebElement> links = driver.findElements(By.cssSelector("figure[class='_3PYj _36VC _1BKw'] a"));
@@ -83,6 +83,7 @@ public class TimesPhoto {
                         break;
                     }
                 }
+                Thread.sleep(5000);
                 driver.close();
                 driver.switchTo().window(originalWindowHandle);
             }

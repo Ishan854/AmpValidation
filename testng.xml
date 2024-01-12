@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="F:/BabyNames/src/test/java/learnTestNgAnnotations/TC1.java">
+    <test verbose="2" preserve-order="true" name="F:/BabyNames/src/test/java/UrlAmp">
         <classes>
-            <class name="learnTestNgAnnotations.TC1">
+            <class name="UrlAmp.AmpPage">
                 <methods>
-                    <include name="test1"/>
-                    <include name="test2"/>
-                </methods>
-            </class>
-            <class name="learnTestNgAnnotations.TC2">
-                <methods>
-                    <include name="test3"/>
-                    <include name="test4"/>
+                    <include name="testAMPValidation"/>
+                    <include name="ampValidatorArticle"/>
+                    <include name="ampValidatorMovie"/>
+                    <include name="ampValidatorPhotos"/>
+                    <include name="ampValidatorReviews"/>
+                    <include name="ampValidatorVideo"/>
                 </methods>
             </class>
         </classes>
-    </test>
-    <test verbose="2" preserve-order="true" name="F:/BabyNames/src/test/java/learnTestNgAnnotations/TC2.java">
-        <classes/>
     </test>
 </suite>

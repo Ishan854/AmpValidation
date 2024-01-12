@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extent-report_Desktop.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-report_Desktop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extent-report_Mweb.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-report_Mweb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/titleandresponse/TitleAndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/titleandresponse/TitleAndResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/ArticleAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/ArticleAmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/MoviesAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/MoviesAmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesPhoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesReviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesReviews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/UrlAmpValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/UrlAmpValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -61,8 +67,8 @@
       <recent name="F:\BabyNames\src\test\resources\SegregateMuslim" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VideosAmp">
-    <configuration name="ArticleAmp" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.F:/BabyNames/testng.xml">
+    <configuration name="AmpPage.ampValidatorArticle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -71,25 +77,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.ArticleAmp" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoviesAmp.ampValidator" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BabyNames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UrlAmp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.MoviesAmp" />
-      <option name="METHOD_NAME" value="ampValidator" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
+      <option name="METHOD_NAME" value="ampValidatorArticle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimesPhoto" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpPage.ampValidatorMovie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -106,15 +95,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.TimesPhoto" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
+      <option name="METHOD_NAME" value="ampValidatorMovie" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimesReviews" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpPage.ampValidatorPhotos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -123,15 +113,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.TimesReviews" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
+      <option name="METHOD_NAME" value="ampValidatorPhotos" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VideosAmp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpPage.ampValidatorReviews" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +131,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.VideosAmp" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
+      <option name="METHOD_NAME" value="ampValidatorReviews" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F:/BabyNames/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BabyNames" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VideosAmp" />
-        <item itemvalue="TestNG.MoviesAmp.ampValidator" />
-        <item itemvalue="TestNG.TimesPhoto" />
-        <item itemvalue="TestNG.ArticleAmp" />
-        <item itemvalue="TestNG.TimesReviews" />
+        <item itemvalue="TestNG.F:/BabyNames/testng.xml" />
+        <item itemvalue="TestNG.AmpPage.ampValidatorReviews" />
+        <item itemvalue="TestNG.AmpPage.ampValidatorPhotos" />
+        <item itemvalue="TestNG.AmpPage.ampValidatorMovie" />
+        <item itemvalue="TestNG.AmpPage.ampValidatorArticle" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +189,47 @@
           <line>58</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java</url>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java</url>
-          <line>43</line>
+          <line>44</line>
           <properties class="UrlAmp.VideosAmp" method="ampValidator">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpValidationCode.java</url>
+          <line>52</line>
+          <properties class="UrlAmp.AmpValidationCode" method="ampValidator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
