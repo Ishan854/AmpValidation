@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/BabyNames/src/test/java/UrlAmp">
+        <classes>
+            <class name="UrlAmp.AmpZoom">
+            </class>
+            <class name="UrlAmp.AmpVideos">
+            </class>
+            <class name="UrlAmp.AmpArticles">
+            </class>
+            <class name="UrlAmp.AmpETNow">
+            </class>
+            <class name="UrlAmp.AmpHindi">
+            </class>
+            <class name="UrlAmp.AmpMovies">
+            </class>
+            <class name="UrlAmp.AmpMovies">
+            </class>
+            <class name="UrlAmp.AmpPhoto">
+            </class>
+            <class name="UrlAmp.AmpTimes">
+            </class>
+        </classes>
+    </test>
+</suite>

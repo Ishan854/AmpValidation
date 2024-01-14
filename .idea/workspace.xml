@@ -5,15 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab251b1f-3b0a-4bdd-9860-b9bae6560817" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12f4f812-e0cb-4c8c-bfbf-4462bdd950a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/15d2f6de-9f4e-4f80-bacc-c7af0f4931d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23e2a348-b1da-44d5-9227-26a41ba9db7d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/31423d73-ee82-4199-a25e-cfe1d8474743-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a0c7507-af1d-4a5a-b9b8-92375bdc2113-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/40d27153-9da3-4ca8-8d6c-7c7b85451ed5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4413ced2-8372-4fc8-bb7c-c34797cba330-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4a12097a-a38b-458e-9cf1-1d41e48efab9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4fb59a84-0523-4bbb-a225-4b31d8767c37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5746a622-b232-4115-9dd2-f5667b9a7984-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7467504e-7f19-40a6-af41-00d771b7375f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/834b95e3-2736-4ca6-a420-63dbeff6e9f7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8c614c32-d05e-481e-84f7-2dd6394b0236-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/925f8ead-2810-46f5-8dca-d425ec4d804a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a0092e9d-94d4-40b3-ad75-ea4118056af2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a3191c11-3a7a-4f8d-a8a8-a65457ca00f5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/af1fe40b-cd4d-4f15-9c51-db3f48ee3325-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b287c3d1-8b91-43f9-87e6-b221109ed4dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bd5549f4-79f7-415a-90fe-d97da44e36dd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bd901a4d-2aa7-4530-8eff-d0c8deaff426-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c0a148f0-6d8e-469d-b478-614fcdbb1423-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c6c00e6a-171c-4ba2-b655-2cc6d59ff87b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d1bb1049-b1f4-4035-9060-ef46b50e6d3c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d76a8d85-8a39-4275-b7c0-5dd073c3d895-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ed65c68a-a457-45da-8a3f-d2e9c876d746-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f3da6663-58c1-4d54-84b9-7b47faae3411-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ff365b4c-c436-4cee-a029-55df4c69efa0-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/ArticleAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/ArticleAmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/MoviesAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/MoviesAmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesPhoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesPhoto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesReviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesReviews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/UrlAmpValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/UrlAmpValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UrlAmp/AmpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/AmpValidationCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/AmpValidationStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/ArticleAmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/MoviesAmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesLiveBlog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesPhoto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/TimesReviews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UrlAmp/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +98,8 @@
       <recent name="F:\BabyNames\src\test\resources\SegregateMuslim" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.F:/BabyNames/testng.xml">
-    <configuration name="AmpPage.ampValidatorArticle" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.F:/BabyNames/src/test/resources/amp_testng.xml">
+    <configuration name="AmpArticlePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -77,16 +108,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
-      <option name="METHOD_NAME" value="ampValidatorArticle" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpArticlePage" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmpPage.ampValidatorMovie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpArticlePage.ampArticle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
-      <option name="METHOD_NAME" value="ampValidatorMovie" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpArticlePage" />
+      <option name="METHOD_NAME" value="ampArticle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmpPage.ampValidatorPhotos" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpArticlePage.ampPhoto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
-      <option name="METHOD_NAME" value="ampValidatorPhotos" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpArticlePage" />
+      <option name="METHOD_NAME" value="ampPhoto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmpPage.ampValidatorReviews" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmpArticlePage.ampReview" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +161,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UrlAmp" />
-      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpPage" />
-      <option name="METHOD_NAME" value="ampValidatorReviews" />
+      <option name="MAIN_CLASS_NAME" value="UrlAmp.AmpArticlePage" />
+      <option name="METHOD_NAME" value="ampReview" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,9 +170,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="F:/BabyNames/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/BabyNames/src/test/resources/amp_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BabyNames" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/amp_testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -152,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.F:/BabyNames/testng.xml" />
-        <item itemvalue="TestNG.AmpPage.ampValidatorReviews" />
-        <item itemvalue="TestNG.AmpPage.ampValidatorPhotos" />
-        <item itemvalue="TestNG.AmpPage.ampValidatorMovie" />
-        <item itemvalue="TestNG.AmpPage.ampValidatorArticle" />
+        <item itemvalue="TestNG.F:/BabyNames/src/test/resources/amp_testng.xml" />
+        <item itemvalue="TestNG.AmpArticlePage.ampPhoto" />
+        <item itemvalue="TestNG.AmpArticlePage.ampReview" />
+        <item itemvalue="TestNG.AmpArticlePage.ampArticle" />
+        <item itemvalue="TestNG.AmpArticlePage" />
       </list>
     </recent_temporary>
   </component>
@@ -213,23 +243,25 @@
           <line>159</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/VideosAmp.java</url>
-          <line>44</line>
-          <properties class="UrlAmp.VideosAmp" method="ampValidator">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpValidOrInvalid.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpValidationCode.java</url>
-          <line>52</line>
-          <properties class="UrlAmp.AmpValidationCode" method="ampValidator">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpArticlePage.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpArticlePage.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UrlAmp/AmpArticlePage.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

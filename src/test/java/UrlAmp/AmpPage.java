@@ -159,7 +159,7 @@ public class AmpPage {
         try {
             driver.get("https://www.timesnownews.com/entertainment-news/reviews");
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class=undefined Wcwg']")));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class='undefined Wcwg']")));
 
             List<WebElement> links = driver.findElements(By.cssSelector("div[class='undefined Wcwg'] a"));
 
